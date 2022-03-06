@@ -3611,7 +3611,7 @@ GameObject:
   - component: {fileID: 2103238947}
   - component: {fileID: 2103238946}
   m_Layer: 0
-  m_Name: OSC Manager
+  m_Name: OSC Manager( 2 -1(main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3638,7 +3638,7 @@ MonoBehaviour:
   _localReceiver: {fileID: 0}
   _localHost: 10.0.1.48
   _localPort: 7000
-  _remoteHost: 127.0.0.1
+  _remoteHost: 192.168.0.191
   _remotePort: 7000
   _useBundle: 0
 --- !u!114 &2103238947
