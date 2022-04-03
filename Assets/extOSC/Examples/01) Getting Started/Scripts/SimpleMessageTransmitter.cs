@@ -19,8 +19,8 @@ namespace extOSC.Examples
 
 		protected virtual void Start()
 		{
-			var message = new OSCMessage(Address);
-			message.AddValue(OSCValue.String("Hello, world!"));
+			var message = new OSCMessage(Address);//creates a new message and
+			message.AddValue(OSCValue.String("Hello, world!"));//adding a value of a string called hello world
 
 			Transmitter.Send(message);
 		}
