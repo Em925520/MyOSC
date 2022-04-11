@@ -40,7 +40,10 @@ namespace extOSC.Examples
 
 		 void Start()
 		{
-
+			// Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
+			//Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
+			//store the variable of the position as async separate variable 
+			//checking every frame isn't the problem, the problem is sending data every frame
 
 
 			// Move the object to the same position as the parent:
