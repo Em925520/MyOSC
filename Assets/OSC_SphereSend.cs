@@ -17,7 +17,7 @@ namespace extOSC.Examples
 
 		#region Unity Methods
 
-		protected virtual void Start()
+		protected virtual void Start() //it is visible only inside this class and classes derived from it. virtual means that it can be overriden in derived classes.
 		{
 			var OSCmessage = new OSCMessage(Address);//creates a new message and
 			float currentSize = transform.localScale.x;
