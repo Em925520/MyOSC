@@ -13,6 +13,11 @@ namespace extOSC.Examples
 		[Header("OSC Settings")]
 		public OSCTransmitter Transmitter;
 
+		/*shang shang arduiono stuff
+		private bool onOff = false;
+		private Renderer theRenderer;
+		*/
+
 		//dragon player movement
 		Vector2 left;
 		Vector2 right;
@@ -40,6 +45,15 @@ namespace extOSC.Examples
 
 		 void Start()
 		{
+
+			/*shang shang 's arduino stuff
+			SendOSCOnOff();
+			theRenderer = GetComponent<Renderer>();
+			Debug.Log(theRenderer);
+			*/
+
+
+
 			// Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
 			//Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
 			//store the variable of the position as async separate variable 

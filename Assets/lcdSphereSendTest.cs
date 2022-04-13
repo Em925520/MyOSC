@@ -9,7 +9,7 @@ namespace extOSC
         #region Public Vars
 
 		public string Address = "/unitysphere/lcd";
-        private bool onOff = flase;
+        private bool onOff = false;
         private Renderer theRenderer;
 
 		[Header("OSC Settings")]
@@ -46,11 +46,11 @@ namespace extOSC
             {
                 OSCmessage.AddValue(OSCValue.String("on"));
                 //theRenderer.materail.SetColor("_Color",Color.yellow);
-                GetComponent<Renderer>().materail.SetColor("_Color",Color.yellow);
+                GetComponent<Renderer>().material.SetColor("_Color",Color.yellow);
             }else{
                 OSCmessage.AddValue(OSCValue.String("off"));
                 //theRenderer.materail.SetColor("_Color",Color.gray);
-                GetComponent<Renderer>().materail.SetColor("_Color",Color.gray);
+                GetComponent<Renderer>().material.SetColor("_Color",Color.gray);
             }
 
             // //add current size as float to second value;
@@ -58,8 +58,10 @@ namespace extOSC
             OSCmessage.AddValue(OSCValue.Float(currentSize));
 
             Transmitter.Send(OSCmessage){
-                Debug.Log("send OSC: "+ OSCmessage);
+                Debug.Log("send OSC: " + OSCmessage);
             }
+                
+            
         }
 
 		#endregion
