@@ -296,9 +296,9 @@ MonoBehaviour:
   _closeOnPause: 0
   _mapBundle: {fileID: 0}
   _workInEditor: 0
-  _localHostMode: 0
-  _localHost: 149.31.229.140
-  _localPort: 7000
+  _localHostMode: 1
+  _localHost: 192.168.0.144
+  _localPort: 8100
 --- !u!1 &269398459
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,8 +449,8 @@ MonoBehaviour:
   _localReceiver: {fileID: 0}
   _localHost: 149.31.231.53
   _localPort: 7000
-  _remoteHost: 127.0.0.1
-  _remotePort: 7400
+  _remoteHost: 192.168.0.185
+  _remotePort: 8000
   _useBundle: 0
 --- !u!1 &639204982
 GameObject:
