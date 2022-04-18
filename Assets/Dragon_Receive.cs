@@ -34,7 +34,8 @@ namespace extOSC.Examples
 			float scaleInt = float.Parse(message.Values[0].StringValue);
 			// float scaleMapped = scaleInt / 200;
 			// transform.localScale = new Vector3(scaleMapped, scaleMapped, scaleMapped);
-			transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
+			// transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
+			transform.position = new Vector2(transform.position.x+scaleInt,transform.position.y);
 			Debug.Log("mapped scale: " + scaleInt);
 			
 			
