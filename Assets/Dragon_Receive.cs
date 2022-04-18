@@ -35,12 +35,12 @@ namespace extOSC.Examples
 			// float scaleMapped = scaleInt / 200;
 			// transform.localScale = new Vector3(scaleMapped, scaleMapped, scaleMapped);
 			// transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
-			if (scaleInt==1){
-				transform.position = new Vector2(transform.position.x+1,transform.position.y);
-			}else if (scaleInt==0){
-				transform.position = new Vector2(transform.position.x-1,transform.position.y);
-			}
-			// transform.position = new Vector2(transform.position.x+scaleInt,transform.position.y);
+			// if (scaleInt==1){
+			// 	transform.position = new Vector2(transform.position.x+1,transform.position.y);
+			// }else if (scaleInt==0){
+			// 	transform.position = new Vector2(transform.position.x-1,transform.position.y);
+			// }
+			transform.position = new Vector2(transform.position.x+scaleInt,transform.position.y);
 			Debug.Log("mapped scale: " + scaleInt);
 			//unity接受并处理收到的arduino的信息，控制龙往右边移动；
 			
