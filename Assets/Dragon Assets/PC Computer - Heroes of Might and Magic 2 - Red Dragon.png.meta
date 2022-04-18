@@ -1,0 +1,1645 @@
+fileFormatVersion: 2
+guid: 6ddb9813012e5a9498f977de8986626a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 756
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d06b4fd0124540b634d15cb966828
+      internalID: 2092279305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 756
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d8700f4655bd64799dffa2da9d5aed
+      internalID: -1803288184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 756
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e191a2bfa53dbff4cbee852f6d04547a
+      internalID: 1682112134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 756
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13df29ebde37e304fa8a6a42b123ea9f
+      internalID: 203964904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 756
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddec942db9538114a9e2c43d409b8412
+      internalID: -2078603868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 756
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bed231bc6524f4ca8396d069336648
+      internalID: 1169837333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 756
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402de5082a4cb324aa6619e7f7ca2c0f
+      internalID: 1199202011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 756
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed07a4a56c42c4489c2c82e0b55c0d
+      internalID: 8242951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_8
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 756
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad14845aba18144698ceb20d4a2a51e
+      internalID: 915880380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_9
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 756
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c28050d989f84a43adafcf1f5c85962
+      internalID: -22940473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_10
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 831
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34daf08963778f54687aa82807e26eee
+      internalID: 2086348335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 756
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222877e70dd83a40af5359c0956ddd0
+      internalID: 133347436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_12
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 837
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900dcf816228fd419ae71ab17290e16
+      internalID: -64811251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_13
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 756
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4097346f65124304d9eb6dc48e32e363
+      internalID: -330745517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_14
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 846
+        width: 4
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bef2905e45cb949a413efb5b8a2432
+      internalID: -1748357881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 756
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8d8ac2a31193f49914472221b228d1
+      internalID: -1903448691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_16
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 756
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef20ebd3f7f44a4f8897c8727d758c3
+      internalID: -321849152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 617
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271428f8a2fa31d469645dd5242ca430
+      internalID: -716331460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 617
+        width: 145
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcd484d33dc79d4ba9f9fb65a4d99b3
+      internalID: -1585164839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 616
+        width: 171
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e583105c61f941b4ea4a7d056f226
+      internalID: -189571057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 617
+        width: 173
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ea6a976d4b6f84b884f8f48ce14f71
+      internalID: 217337197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_21
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 643
+        width: 191
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5392f42b3c98a4588698d5df223ca1
+      internalID: 656312402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_22
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 628
+        width: 172
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca8c10a69baac47b75407defeb92bb
+      internalID: -627723358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_23
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 617
+        width: 174
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98f7177619567c4a8197f94230d921f
+      internalID: 1635248897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_24
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 618
+        width: 138
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f144e65d5772419f14e436860c158
+      internalID: -937738472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_25
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 618
+        width: 128
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4039f571f48bdf24991b0ac03a5d2902
+      internalID: 108340557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 519
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c8ea4b4684fc345931afbfec2edd73
+      internalID: 148072501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 518
+        width: 134
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6a1a9f35ddeb8488f8b59795538325
+      internalID: 369737289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 518
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a242296d24acb14f97f99f20c62c530
+      internalID: -505174568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 519
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adee0f270d3300c48a997290f1a2f662
+      internalID: -1266257707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_30
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 518
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd789fffeff26a40bbef20eca6e639e
+      internalID: -1074404942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 401
+        width: 217
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8211d5ac765a44440bd34546ae35e816
+      internalID: 1665717533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 401
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1112cd5fc74a44aa00ba64d44e64c6
+      internalID: 113684707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 401
+        width: 164
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78bced02a0dd2243bc20474887b6d64
+      internalID: 1445267305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_35
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 401
+        width: 196
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2df389aa135e864eb9af98448223255
+      internalID: 1642478577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_36
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 399
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56308c3b3b2bcc748b1dd3e31ec8dd27
+      internalID: 733804747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_38
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 401
+        width: 163
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a0f6ab0b9cfc4ca806b39a61b451c
+      internalID: -524197460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_40
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 401
+        width: 205
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caa396438b308a40af4277e39ffa5ff
+      internalID: 1081550635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_41
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 279
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e1ed836d7f3346b8cd982f6d88dcd
+      internalID: 1606073296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 279
+        width: 197
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dbe3b920d2a434bae65c30bcf0d2f9
+      internalID: -276243642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_43
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 274
+        width: 186
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b0400ec2c1eda4f94897f5e03d0fc2
+      internalID: 2048159346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 339
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2dfbd779276f2488d8cbca463d40cf
+      internalID: 1895558594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_46
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 279
+        width: 186
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913f1452f61df64e8477b86dd62ee32
+      internalID: -318521018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_47
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 279
+        width: 242
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a15866a80cae2c4fa363389893a372a
+      internalID: 1068652074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_48
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 279
+        width: 242
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79d98ef44a08f4f9099e02e078087c
+      internalID: 1686306154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 125
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971eadd2d242bbf4489169c58560270e
+      internalID: 1593619492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_51
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 124
+        width: 145
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94670b0e3dedd3f449df2c7f9776bd95
+      internalID: -276979061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 125
+        width: 138
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c8159a738ef6409dd39235f879adc
+      internalID: 310199540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_53
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 131
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8192d0ac5dc4d714eb3f21f469816e9b
+      internalID: 2126627805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_54
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 69
+        width: 169
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e1c45aafc8044d95880b760450b5d
+      internalID: -960793146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_55
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 159
+        width: 140
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483445af6f5f06246a511886bec5acb4
+      internalID: -682021081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_56
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 159
+        width: 117
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c203e90f77b180a48aad47e418b8fb1d
+      internalID: 592643258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_57
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 159
+        width: 121
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057940d06135f547bd03b6b1b15d900
+      internalID: 720073869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_58
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 159
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afd666c0386a9141ac60dd3a43e5a9f
+      internalID: 126336732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c2bfca97e081478aa3957c6d5369f
+      internalID: -833202746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 10
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63595e4d8c992c43bb1083da2f2ebae
+      internalID: 179164299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_61
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 4
+        width: 113
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6759a4d3f04c9fa4da3c550f3da6015e
+      internalID: -28278525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_62
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 7
+        width: 106
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13e700278977694eaeb5799eca43110
+      internalID: 928954384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_63
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 14
+        width: 96
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d170501fc22915145b47ede0017e7db0
+      internalID: -1398103164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_64
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 13
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4c939653fd1d943a1fa0045dae88a6
+      internalID: -1918683287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_65
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 13
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2d30a0bd0eaad4dbff7f6643ffc618
+      internalID: 1950143883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_66
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 13
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685e966901051f4bb3a975b848a0ab1
+      internalID: -311635443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_67
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 13
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b75280d26ab6ca4f92e2511e8e6a7e5
+      internalID: -113744173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_68
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 13
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b9919b3537f6d43aeed24cf3313b12
+      internalID: -1863908245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_69
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 13
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25de7da9ed4d8074aa57b1e36f575e7f
+      internalID: 1963131776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_70
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 13
+        width: 106
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d12e128f982c6b4fb11d1e65871d2bb
+      internalID: 516049200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_71
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 13
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357708159a69aeb4da89f4612c4698d8
+      internalID: -1148481171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_72
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 20
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4143a9f52a42954a85e1a29c0baf99d
+      internalID: 1554468946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_73
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 4
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142ac95e5d036ea469a314e5c50b514f
+      internalID: -1377899894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f4fd6c24650ade344af07d1d190008cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_41: 1606073296
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_11: 133347436
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_17: -716331460
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_43: 2048159346
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_50: 1593619492
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_70: 516049200
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_2: 1682112134
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_31: 1665717533
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_67: -113744173
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_0: 2092279305
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_32: -1653389662
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_42: -276243642
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_73: -1377899894
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_59: -833202746
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_3: 203964904
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_25: 108340557
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_60: 179164299
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_56: 592643258
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_54: -960793146
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_64: -1918683287
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_35: 1642478577
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_30: -1074404942
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_22: -627723358
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_26: 148072501
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_12: -64811251
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_38: -524197460
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_72: 1554468946
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_39: -1645466505
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_69: 1963131776
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_62: 928954384
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_18: -1585164839
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_66: -311635443
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_71: -1148481171
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_65: 1950143883
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_28: -505174568
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_27: 369737289
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_51: -276979061
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_10: 2086348335
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_44: -454972241
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_55: -682021081
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_34: 1445267305
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_57: 720073869
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_20: 217337197
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_14: -1748357881
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_37: 1243219789
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_49: -2119821919
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_8: 915880380
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_16: -321849152
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_53: 2126627805
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_46: -318521018
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_7: 8242951
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_52: 310199540
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_23: 1635248897
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_47: 1068652074
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_63: -1398103164
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_5: 1169837333
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_40: 1081550635
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_19: -189571057
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_9: -22940473
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_13: -330745517
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_45: 1895558594
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_29: -1266257707
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_36: 733804747
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_1: -1803288184
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_4: -2078603868
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_48: 1686306154
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_15: -1903448691
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_61: -28278525
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_58: 126336732
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_6: 1199202011
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_21: 656312402
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_68: -1863908245
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_24: -937738472
+      PC Computer - Heroes of Might and Magic 2 - Red Dragon_33: 113684707
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
