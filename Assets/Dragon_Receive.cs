@@ -28,9 +28,14 @@ namespace extOSC.Examples
 		#region Private Methods
 
 		private void ReceivedMessage(OSCMessage message)
-		{
-			
-			
+		{	
+			string scaleRaw = message.Values[0].StringValue;
+			Debug.Log("val[0]: " + scaleRaw);
+			float scaleInt = float.Parse(message.Values[0].StringValue);
+			// float scaleMapped = scaleInt / 200;
+			// transform.localScale = new Vector3(scaleMapped, scaleMapped, scaleMapped);
+			transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
+			Debug.Log("mapped scale: " + scaleInt);
 			
 			
 			
