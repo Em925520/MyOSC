@@ -127,6 +127,7 @@ namespace extOSC.Examples
 			OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
 			// Debug.Log("send OSC + " + OSCmessage);
 			Transmitter.Send(OSCmessage);
+			
 		}
 
 		#endregion
