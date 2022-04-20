@@ -28,10 +28,10 @@ namespace extOSC.Examples
 		#region Private Methods
 
 		private void ReceivedMessage(OSCMessage message)
-		{	
-			string scaleRaw = message.Values[0].StringValue;
+		{
+			string scaleRaw = message.Values[1].StringValue;
 			Debug.Log("val[0]: " + scaleRaw);
-			float scaleInt = float.Parse(message.Values[0].StringValue);
+			float scaleInt = float.Parse(message.Values[1].StringValue);
 			// float scaleMapped = scaleInt / 200;
 			// transform.localScale = new Vector3(scaleMapped, scaleMapped, scaleMapped);
 			// transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
@@ -40,16 +40,30 @@ namespace extOSC.Examples
 			// }else if (scaleInt==0){
 			// 	transform.position = new Vector2(transform.position.x-1,transform.position.y);
 			// }
-			transform.position = new Vector2(transform.position.x+scaleInt,transform.position.y);
+			transform.position = new Vector2(transform.position.x + scaleInt, transform.position.y);
 			Debug.Log("mapped scale: " + scaleInt);
 			//unity接受并处理收到的arduino的信息，控制龙往右边移动；
-			
-			
-			
-			
-			
-			
-			/*
+
+			string scaleRaw1 = message.Values[2].StringValue;
+			Debug.Log("val[0]: " + scaleRaw1);
+			float scaleInt1 = float.Parse(message.Values[2].StringValue);
+			transform.position = new Vector2(transform.position.x + scaleInt1, transform.position.y);
+		
+
+
+
+
+
+
+
+		}
+
+		#endregion
+	}
+}
+
+
+/*
 			//only changing the string of values into an integer 
 			//string radData0 = message.Values[0].StringValue;
 			string rawData0 = message.Values[0].StringValue;
@@ -68,8 +82,3 @@ namespace extOSC.Examples
 
 			//Debug.LogFormat("Received: {0}", message);
 			*/
-		}
-
-		#endregion
-	}
-}
