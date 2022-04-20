@@ -123,10 +123,10 @@ namespace extOSC.Examples
 													 //sending this data to osc
 			float Dragon_position = transform.localPosition.x;
 			
-			OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
-			OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
-			// Debug.Log("send OSC + " + OSCmessage);
-			Transmitter.Send(OSCmessage);
+			// OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
+			// OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
+			// // Debug.Log("send OSC + " + OSCmessage);
+			// Transmitter.Send(OSCmessage);
 			
 		}
 

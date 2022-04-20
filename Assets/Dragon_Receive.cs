@@ -36,15 +36,14 @@ namespace extOSC.Examples
 
 			string scaleRaw1 = message.Values[1].StringValue;
 			Debug.Log("val[1]: " + scaleRaw1);
-			float scaleInt1 = float.Parse(message.Values[1].StringValue);
-
+			float scaleInt1 = float.Parse(message.Values[1].StringValue)*10;
 			transform.position = new Vector2(transform.position.x + scaleInt1, transform.position.y);
 			Debug.Log("move right");
 			//unity接受并处理收到的arduino的信息，控制龙往右边移动；
 
 			string scaleRaw2 = message.Values[2].StringValue;
 			Debug.Log("val[2]: " + scaleRaw2);
-			float scaleInt2 = float.Parse(message.Values[2].StringValue);
+			float scaleInt2 = float.Parse(message.Values[2].StringValue)*10;
 			transform.position = new Vector2(transform.position.x - scaleInt2, transform.position.y);
 			Debug.Log("move left");
 
