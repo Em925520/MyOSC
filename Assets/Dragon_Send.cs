@@ -125,7 +125,7 @@ namespace extOSC.Examples
 			
 			OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
 			OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
-			Debug.Log("send OSC + " + OSCmessage);
+			// Debug.Log("send OSC + " + OSCmessage);
 			Transmitter.Send(OSCmessage);
 		}
 

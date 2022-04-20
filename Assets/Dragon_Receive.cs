@@ -29,25 +29,27 @@ namespace extOSC.Examples
 
 		private void ReceivedMessage(OSCMessage message)
 		{
-			string scaleRaw = message.Values[1].StringValue;
-			Debug.Log("val[0]: " + scaleRaw);
-			float scaleInt = float.Parse(message.Values[1].StringValue);
+			string scaleRaw1 = message.Values[1].StringValue;
+			Debug.Log("val[1]: " + scaleRaw1);
+			float scaleInt1 = float.Parse(message.Values[1].StringValue);
 			// float scaleMapped = scaleInt / 200;
 			// transform.localScale = new Vector3(scaleMapped, scaleMapped, scaleMapped);
-			// transform.position = new Vector3(transform.position.x+scaleInt,transform.position.y, transform.position.z);
+			// transform.position = new Vector3(transform.postion.x+scaleInt,transformi.position.y, transform.position.z);
 			// if (scaleInt==1){
 			// 	transform.position = new Vector2(transform.position.x+1,transform.position.y);
 			// }else if (scaleInt==0){
 			// 	transform.position = new Vector2(transform.position.x-1,transform.position.y);
 			// }
-			transform.position = new Vector2(transform.position.x + scaleInt, transform.position.y);
-			Debug.Log("mapped scale: " + scaleInt);
-			//unity接受并处理收到的arduino的信息，控制龙往右边移动；
-
-			string scaleRaw1 = message.Values[2].StringValue;
-			Debug.Log("val[0]: " + scaleRaw1);
-			float scaleInt1 = float.Parse(message.Values[2].StringValue);
+			// transform.position = new Vector3(transform.position.x+scaleInt1,transform.position.y, transform.position.z);
 			transform.position = new Vector2(transform.position.x + scaleInt1, transform.position.y);
+			// Debug.Log("mapped scale: " + scaleInt);
+			//unity接受并处理收到的arduino的信息，控制龙往右边移动；
+			Debug.Log("move right");
+
+			// string scaleRaw2 = message.Values[2].StringValue;
+			// Debug.Log("val[2]: " + scaleRaw2);
+			// float scaleInt2 = float.Parse(message.Values[2].StringValue);
+			// transform.position = new Vector2(transform.position.x - scaleInt2, transform.position.y);
 		
 
 
