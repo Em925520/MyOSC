@@ -24,10 +24,10 @@ namespace extOSC.Examples
 		//public Vector2 localPosition;
 
 
-		public int speed = 5;
+		public int speed = 20;
 		public int jumpForce = 300;
 		Rigidbody2D _rigidbody;
-		//Animator _animator;
+		Animator _animator;
 		//public Transform feet; //assigned with empty game object and tag on the player's feet
 		public LayerMask groundLayer;
 		public bool isGrounded = false;//bool checks if a statement is true or false
@@ -67,7 +67,7 @@ namespace extOSC.Examples
 			right = transform.localScale;
 			left = new Vector2(-transform.localScale.x, transform.localScale.y);
 			_rigidbody = GetComponent<Rigidbody2D>();
-			//_animator = GetComponent<Animator>();
+			_animator = GetComponent<Animator>();
 
 			_audioSource = GetComponent<AudioSource>();//add more codes onto "fire" if your player will fire
 
@@ -95,14 +95,12 @@ namespace extOSC.Examples
 
 
 
-			/* 回头加了animator之后再加animator code
-			 * 
-			 * _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
+			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
-			isGrounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
-			_animator.SetBool("Grounded", isGrounded);// my jumping function does not work for some reason*
+			//isGrounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
+			//_animator.SetBool("Grounded", isGrounded);// my jumping function does not work for some reason*
 
-			*/
+			
 
 
 
