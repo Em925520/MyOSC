@@ -21,6 +21,7 @@ namespace extOSC.Examples
 		//dragon player movement
 		Vector2 left;
 		Vector2 right;
+		Vector2 up;
 		//public Vector2 localPosition;
 
 
@@ -38,9 +39,12 @@ namespace extOSC.Examples
 		public AudioClip BG_Sound;
 		public AudioClip End_Sound;//entering the castle at the end
 		public AudioClip StartMenu_Sound;
-
+		
 		bool dragonblowing_fire = false;
 		//bool dragonflying = false;
+		public GameObject OSCdragon;
+		float up_Speed = 10f;
+		
 
 		#endregion
 
@@ -90,16 +94,21 @@ namespace extOSC.Examples
 			_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
 																			 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
 
-			if (xSpeed < 0 && transform.localScale.x > 0)
+			if (xSpeed < 0 && transform.localScale.x > 0 )
 			{
 				transform.localScale = left;
-				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y);
+				_rigidbody.velocity = transform.up * up_Speed;
+				
+
 			}
-			else if (xSpeed > 0 && transform.localScale.x < 0)
+			else if (xSpeed > 0 && transform.localScale.x < 0 )
 			{
 				transform.localScale = right;
-				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y);
+				_rigidbody.velocity = transform.up * up_Speed;
+				
+
 			}
+			
 
 
 			//making sure the dragon is flying in both directions checking within speed
@@ -122,22 +131,27 @@ namespace extOSC.Examples
 				}
 			}
 
+			//this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
+			if (Input.GetKey(KeyCode.UpArrow))
+			{
+				//Move the Rigidbody upwards constantly at speed you define (the green arrow axis in Scene view)
+				_rigidbody.velocity = transform.up * up_Speed;
+			}
+
+			if (Input.GetKey(KeyCode.DownArrow))
+			{
+				//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
+				_rigidbody.velocity = -transform.up * up_Speed;
+			}
+
+
+
+
+
+
+
+
 		
-
-
-
-
-
-
-
-			/*我们的恐龙需要在游戏里面跳吗?
-			 * 
-			if (Input.GetButtonDown("Jump") && isGrounded)//force jump while grounded on the ground floor
-			{//remember to tag ground in ground layer that are created then drag ground to "ground" in player inspecter
-				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0); //set velocity to 0 before addforce there the player won't jump extra or launch themselves after pressing on jump mutiple time
-				_rigidbody.AddForce(new Vector2(0, jumpForce));
-
-			}*/
 
 
 
@@ -229,3 +243,11 @@ namespace extOSC.Examples
 			_animator.SetBool("jumping", false);
 		}
 */
+
+/*
+ * 
+ * doesnt work
+			if(transform.position.y > 50 )
+            {
+				_rigidbody.velocity = -transform.up * up_Speed;
+			}*/
