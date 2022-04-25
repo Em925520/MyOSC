@@ -39,6 +39,8 @@ namespace extOSC.Examples
 		public AudioClip End_Sound;//entering the castle at the end
 		public AudioClip StartMenu_Sound;
 
+		bool dragonblowing_fire = false;
+
 		#endregion
 
 		#region Unity Methods
@@ -97,12 +99,26 @@ namespace extOSC.Examples
 			//making sure the dragon is flying in both directions checking within speed
 			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
-		   //checking if dragon is blowing fire left or right
+			if (Input.GetKeyDown("space"))
+			{
+				//checking if dragon is blowing fire left or right
+				dragonblowing_fire = true;
+				_animator.SetBool("isblowingLR_fire", true);
 
-			//_animator.SetBool("isblowingLR_fire", true);
-			//checking if dragon is blowing fire down
+				//checking if dragon is blowing fire down
 
-			//_animator.SetBool("isblowingdown_fire", true);
+				//_animator.SetBool("isblowingdown_fire", true);
+			}
+			else {
+				if(Input.GetKeyUp("space")){
+					dragonblowing_fire = false;
+					_animator.SetBool("isblowingLR_fire", false);
+				}
+			}
+
+		
+
+
 
 
 
@@ -130,6 +146,22 @@ namespace extOSC.Examples
 			// Transmitter.Send(OSCmessage);
 			
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 
 		#endregion
 	}
@@ -168,4 +200,25 @@ namespace extOSC.Examples
  * 2. if the dragon is moving in the scene, receive the data of the dragon position
  * 3. detect if dragon is blowing fire or not, if the dragon is blowing-- receiving "1", if dragon is not blowing receiving "0"
  * 4. receiveing data of the #times the fire is blowing colliding with enemy
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ *you can create an event to trigger when something happens so this can check if player is landing the group then stop jumping
+ * 
+ * public void OnLanding()
+        {
+			_animator.SetBool("jumping", false);
+		}
 */
