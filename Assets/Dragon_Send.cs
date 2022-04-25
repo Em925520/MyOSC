@@ -98,9 +98,11 @@ namespace extOSC.Examples
 			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
 		   //checking if dragon is blowing fire left or right
-			_animator.SetBool("isblowingLR_fire", true);
+
+			//_animator.SetBool("isblowingLR_fire", true);
 			//checking if dragon is blowing fire down
-			_animator.SetBool("isblowingdown_fire", true);
+
+			//_animator.SetBool("isblowingdown_fire", true);
 
 
 
