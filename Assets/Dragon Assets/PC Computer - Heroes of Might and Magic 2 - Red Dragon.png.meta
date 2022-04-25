@@ -905,13 +905,13 @@ TextureImporter:
       name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_41
       rect:
         serializedVersion: 2
-        x: 3
-        y: 279
-        width: 169
+        x: 0
+        y: 277
+        width: 184
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 10, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -927,7 +927,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 175
-        y: 279
+        y: 278
         width: 197
         height: 116
       alignment: 0
@@ -949,7 +949,7 @@ TextureImporter:
         serializedVersion: 2
         x: 373
         y: 274
-        width: 186
+        width: 197
         height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -991,7 +991,7 @@ TextureImporter:
         serializedVersion: 2
         x: 561
         y: 279
-        width: 186
+        width: 197
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1010,9 +1010,9 @@ TextureImporter:
       name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_47
       rect:
         serializedVersion: 2
-        x: 748
-        y: 279
-        width: 242
+        x: 792
+        y: 280
+        width: 197
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1031,9 +1031,9 @@ TextureImporter:
       name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_48
       rect:
         serializedVersion: 2
-        x: 994
-        y: 279
-        width: 242
+        x: 1030
+        y: 281
+        width: 197
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
