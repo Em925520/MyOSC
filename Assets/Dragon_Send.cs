@@ -29,8 +29,8 @@ namespace extOSC.Examples
 		Rigidbody2D _rigidbody;
 		Animator _animator;
 		//public Transform feet; //assigned with empty game object and tag on the player's feet
-		public LayerMask groundLayer;
-		public bool isGrounded = false;//bool checks if a statement is true or false
+		//public LayerMask groundLayer;
+		//public bool isGrounded = false;//bool checks if a statement is true or false
 									   //// public GameObject FallingPlatform;
 		AudioSource _audioSource;
 		public AudioClip Blowing_FireSound;
@@ -40,6 +40,7 @@ namespace extOSC.Examples
 		public AudioClip StartMenu_Sound;
 
 		bool dragonblowing_fire = false;
+		//bool dragonflying = false;
 
 		#endregion
 
@@ -48,7 +49,7 @@ namespace extOSC.Examples
 		 void Start()
 		{
 
-			/*shang shang 's arduino stuff
+            /*shang shang 's arduino stuff
 			SendOSCOnOff();
 			theRenderer = GetComponent<Renderer>();
 			Debug.Log(theRenderer);
@@ -56,18 +57,21 @@ namespace extOSC.Examples
 
 
 
-			// Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
-			//Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
-			//store the variable of the position as async separate variable 
-			//checking every frame isn't the problem, the problem is sending data every frame
+            // Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
+            //Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
+            //store the variable of the position as async separate variable 
+            //checking every frame isn't the problem, the problem is sending data every frame
 
 
-			// Move the object to the same position as the parent:
-			//transform.localPosition = new Vector2(0, 0);
-			//transform.localPosition = new Vector2(-transform.localScale.x, transform.localScale.y);
+            // Move the object to the same position as the parent:
+            //transform.localPosition = new Vector2(0, 0);
+            //transform.localPosition = new Vector2(-transform.localScale.x, transform.localScale.y);
+            
+				right = transform.localScale;
+				left = new Vector2(-transform.localScale.x, transform.localScale.y);
 
-			right = transform.localScale;
-			left = new Vector2(-transform.localScale.x, transform.localScale.y);
+			
+			
 			_rigidbody = GetComponent<Rigidbody2D>();
 			_animator = GetComponent<Animator>();
 
@@ -89,10 +93,12 @@ namespace extOSC.Examples
 			if (xSpeed < 0 && transform.localScale.x > 0)
 			{
 				transform.localScale = left;
+				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y);
 			}
 			else if (xSpeed > 0 && transform.localScale.x < 0)
 			{
 				transform.localScale = right;
+				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y);
 			}
 
 
@@ -216,6 +222,7 @@ namespace extOSC.Examples
  * 
  * 
  *you can create an event to trigger when something happens so this can check if player is landing the group then stop jumping
+ *https://www.youtube.com/watch?v=hkaysu1Z-N8
  * 
  * public void OnLanding()
         {
