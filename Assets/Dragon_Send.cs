@@ -21,7 +21,7 @@ namespace extOSC.Examples
 		//dragon player movement
 		Vector2 left;
 		Vector2 right;
-		Vector2 up;
+		//Vector2 up;
 		public Vector2 localPosition;
 
 
@@ -107,25 +107,26 @@ namespace extOSC.Examples
 
 			float xSpeed = Input.GetAxis("Horizontal") * speed;
 			//rb.velocity = new Vector2(xSpeed, 0);//move character left and right but now there is a bug that the player won't drop on the platform because the y is "0" there every frame it will reset velocity
-			_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
-																			 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
-
-			if (xSpeed < 0 && transform.localScale.x > 0 )
+			if (xSpeed > 0 || xSpeed < 0)
 			{
-				transform.localScale = left;
-				_rigidbody.velocity = transform.up * up_Speed;
-			}
-			else if (xSpeed > 0 && transform.localScale.x < 0 )
-			{
-				transform.localScale = right;
-				_rigidbody.velocity = transform.up * up_Speed;
-				
+				_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
+																				 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
+
+				if (xSpeed < 0 && transform.localScale.x > 0)
+				{
+					transform.localScale = left;
+					_rigidbody.velocity = transform.up * up_Speed;
+				}
+				else if (xSpeed > 0 && transform.localScale.x < 0)
+				{
+					transform.localScale = right;
+					_rigidbody.velocity = transform.up * up_Speed;
+				}
+
+				//making sure the dragon is flying in both directions checking within speed
+				_animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
 			}
-
-			//making sure the dragon is flying in both directions checking within speed
-			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
-
 			/*if (Input.GetKeyDown("space"))
 			{
 				//checking if dragon is blowing fire left or right

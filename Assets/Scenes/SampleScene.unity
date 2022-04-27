@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -774,7 +774,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2121212, y: 1}
+    m_SensorSize: {x: 1.9414062, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1061,6 +1061,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Address: /unitydragon
   Transmitter: {fileID: 2118181347}
+  localPosition: {x: 0, y: 0}
+  speed: 20
+  jumpForce: 300
+  feet: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isGrounded: 0
+  Blowing_FireSound: {fileID: 0}
+  DragonWalking_Sound: {fileID: 0}
+  BG_Sound: {fileID: 0}
+  End_Sound: {fileID: 0}
+  StartMenu_Sound: {fileID: 0}
+  OSCdragon: {fileID: 0}
 --- !u!114 &1222053925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 539f5989ec7c1454f9ae364f5576336d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
   Address: /Dragon_movement
   Receiver: {fileID: 2118181346}
 --- !u!95 &1222053926
