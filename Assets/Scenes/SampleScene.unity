@@ -1083,6 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Address: /Dragon_movement
   Receiver: {fileID: 2118181346}
+  speed: 20
 --- !u!95 &1222053926
 Animator:
   serializedVersion: 4

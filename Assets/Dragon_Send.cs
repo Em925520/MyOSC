@@ -21,7 +21,7 @@ namespace extOSC.Examples
 		//dragon player movement
 		Vector2 left;
 		Vector2 right;
-		Vector2 up;
+		//Vector2 up;
 		//public Vector2 localPosition;
 
 
@@ -114,7 +114,7 @@ namespace extOSC.Examples
 			//making sure the dragon is flying in both directions checking within speed
 			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
-			if (Input.GetKeyDown("space"))
+			/*if (Input.GetKeyDown("space"))
 			{
 				//checking if dragon is blowing fire left or right
 				dragonblowing_fire = true;
@@ -130,6 +130,7 @@ namespace extOSC.Examples
 					_animator.SetBool("isblowingLR_fire", false);
 				}
 			}
+			*/
 
 			//this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
 			if (Input.GetKey(KeyCode.UpArrow))
