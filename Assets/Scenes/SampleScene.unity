@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222053918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79ec27d65c6ff14e8465bf92913665f, type: 3}
   m_Name: 
@@ -1082,7 +1082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Address: /Dragon_movement
-  num: 
   Receiver: {fileID: 2118181346}
 --- !u!95 &1222053926
 Animator:
