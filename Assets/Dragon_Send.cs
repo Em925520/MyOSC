@@ -19,186 +19,160 @@ namespace extOSC.Examples
 		*/
 
 		//dragon player movement
-		Vector2 left;
-		Vector2 right;
+		// Vector2 left;
+		// Vector2 right;
 		//Vector2 up;
 		//public Vector2 localPosition;
 
 
-		public int speed = 20;
-		public int jumpForce = 300;
-		Rigidbody2D _rigidbody;
-		Animator _animator;
+		// public int speed = 20;
+		// public int jumpForce = 300;
+		// Rigidbody2D _rigidbody;
+		// Animator _animator;
 		//public Transform feet; //assigned with empty game object and tag on the player's feet
 		//public LayerMask groundLayer;
 		//public bool isGrounded = false;//bool checks if a statement is true or false
 									   //// public GameObject FallingPlatform;
-		AudioSource _audioSource;
-		public AudioClip Blowing_FireSound;
-		public AudioClip DragonWalking_Sound;
-		public AudioClip BG_Sound;
-		public AudioClip End_Sound;//entering the castle at the end
-		public AudioClip StartMenu_Sound;
+		// AudioSource _audioSource;
+		// public AudioClip Blowing_FireSound;
+		// public AudioClip DragonWalking_Sound;
+		// public AudioClip BG_Sound;
+		// public AudioClip End_Sound;//entering the castle at the end
+		// public AudioClip StartMenu_Sound;
 		
-		bool dragonblowing_fire = false;
-		//bool dragonflying = false;
-		public GameObject OSCdragon;
-		float up_Speed = 10f;
+		// bool dragonblowing_fire = false;
+		// //bool dragonflying = false;
+		// public GameObject OSCdragon;
+		// float up_Speed = 10f;
 		
 
 		#endregion
 
 		#region Unity Methods
 
-		 void Start()
+		protected virtual void Start()
 		{
 
-            /*shang shang 's arduino stuff
-			SendOSCOnOff();
-			theRenderer = GetComponent<Renderer>();
-			Debug.Log(theRenderer);
-			*/
-
-
-
-            // Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
-            //Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
-            //store the variable of the position as async separate variable 
-            //checking every frame isn't the problem, the problem is sending data every frame
-
-
-            // Move the object to the same position as the parent:
-            //transform.localPosition = new Vector2(0, 0);
-            //transform.localPosition = new Vector2(-transform.localScale.x, transform.localScale.y);
-            
-				right = transform.localScale;
-				left = new Vector2(-transform.localScale.x, transform.localScale.y);
-
-			
-			
-			_rigidbody = GetComponent<Rigidbody2D>();
-			_animator = GetComponent<Animator>();
-
-			_audioSource = GetComponent<AudioSource>();//add more codes onto "fire" if your player will fire
-
-
-
 		}
-        
-       void Update()
+
+        private void OnMouseDown()
         {
-			//player code
+			Debug.Log("sending OSC");
+			var message = new OSCMessage(Address);
+			message = new OSCMessage(Address);
+			message.AddValue(OSCValue.Float(1));
+			// message.AddValue(OSCValue.String("a second value"));
 
-			float xSpeed = Input.GetAxis("Horizontal") * speed;
-			//rb.velocity = new Vector2(xSpeed, 0);//move character left and right but now there is a bug that the player won't drop on the platform because the y is "0" there every frame it will reset velocity
-			_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
-																			 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
-
-			if (xSpeed < 0 && transform.localScale.x > 0 )
-			{
-				transform.localScale = left;
-				_rigidbody.velocity = transform.up * up_Speed;
-				
-
-			}
-			else if (xSpeed > 0 && transform.localScale.x < 0 )
-			{
-				transform.localScale = right;
-				_rigidbody.velocity = transform.up * up_Speed;
-				
-
-			}
-			
-
-
-			//making sure the dragon is flying in both directions checking within speed
-			 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
-
-			/*if (Input.GetKeyDown("space"))
-			{
-				//checking if dragon is blowing fire left or right
-				dragonblowing_fire = true;
-				_animator.SetBool("isblowingLR_fire", true);
-
-				//checking if dragon is blowing fire down
-
-				//_animator.SetBool("isblowingdown_fire", true);
-			}
-			else {
-				if(Input.GetKeyUp("space")){
-					dragonblowing_fire = false;
-					_animator.SetBool("isblowingLR_fire", false);
-				}
-			}
-			*/
-
-			//this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
-			if (Input.GetKey(KeyCode.UpArrow))
-			{
-				//Move the Rigidbody upwards constantly at speed you define (the green arrow axis in Scene view)
-				_rigidbody.velocity = transform.up * up_Speed;
-			}
-
-			if (Input.GetKey(KeyCode.DownArrow))
-			{
-				//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
-				_rigidbody.velocity = -transform.up * up_Speed;
-			}
-
-
-
-
-
-
-
-
-		
-
-
-
-			var OSCmessage = new OSCMessage(Address);//creates a new message
-													 //check if the position of the dragon is changed then send the float data of the position to console 
-													 //sending this data to osc
-			float Dragon_position = transform.localPosition.x;
-			
-			// OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
-			// OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
-			// // Debug.Log("send OSC + " + OSCmessage);
-			// Transmitter.Send(OSCmessage);
-			
+			Transmitter.Send(message);
 		}
 
+		//  void Start()
+		// {
+
+        //     /*shang shang 's arduino stuff
+		// 	SendOSCOnOff();
+		// 	theRenderer = GetComponent<Renderer>();
+		// 	Debug.Log(theRenderer);
+		// 	*/
 
 
 
+        //     // Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
+        //     //Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
+        //     //store the variable of the position as async separate variable 
+        //     //checking every frame isn't the problem, the problem is sending data every frame
+
+
+        //     // Move the object to the same position as the parent:
+        //     //transform.localPosition = new Vector2(0, 0);
+        //     //transform.localPosition = new Vector2(-transform.localScale.x, transform.localScale.y);
+            
+		// 		right = transform.localScale;
+		// 		left = new Vector2(-transform.localScale.x, transform.localScale.y);
+
+			
+			
+		// 	_rigidbody = GetComponent<Rigidbody2D>();
+		// 	_animator = GetComponent<Animator>();
+
+		// 	_audioSource = GetComponent<AudioSource>();//add more codes onto "fire" if your player will fire
 
 
 
+		// }
+        
+    //    void Update()
+    //     {
+	// 		//player code
+
+	// 		float xSpeed = Input.GetAxis("Horizontal") * speed;
+	// 		//rb.velocity = new Vector2(xSpeed, 0);//move character left and right but now there is a bug that the player won't drop on the platform because the y is "0" there every frame it will reset velocity
+	// 		_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
+	// 																		 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
+
+	// 		if (xSpeed < 0 && transform.localScale.x > 0 )
+	// 		{
+	// 			transform.localScale = left;
+	// 			_rigidbody.velocity = transform.up * up_Speed;
+	// 		}
+	// 		else if (xSpeed > 0 && transform.localScale.x < 0 )
+	// 		{
+	// 			transform.localScale = right;
+	// 			_rigidbody.velocity = transform.up * up_Speed;
+				
+
+	// 		}
+
+	// 		//making sure the dragon is flying in both directions checking within speed
+	// 		 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
+
+	// 		/*if (Input.GetKeyDown("space"))
+	// 		{
+	// 			//checking if dragon is blowing fire left or right
+	// 			dragonblowing_fire = true;
+	// 			_animator.SetBool("isblowingLR_fire", true);
+
+	// 			//checking if dragon is blowing fire down
+
+	// 			//_animator.SetBool("isblowingdown_fire", true);
+	// 		}
+	// 		else {
+	// 			if(Input.GetKeyUp("space")){
+	// 				dragonblowing_fire = false;
+	// 				_animator.SetBool("isblowingLR_fire", false);
+	// 			}
+	// 		}
+	// 		*/
+
+	// 		//this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
+	// 		if (Input.GetKey(KeyCode.UpArrow))
+	// 		{
+	// 			//Move the Rigidbody upwards constantly at speed you define (the green arrow axis in Scene view)
+	// 			_rigidbody.velocity = transform.up * up_Speed;
+	// 		}
+
+	// 		if (Input.GetKey(KeyCode.DownArrow))
+	// 		{
+	// 			//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
+	// 			_rigidbody.velocity = -transform.up * up_Speed;
+	// 		}
 
 
-
-
-
-
-
-
-		
+	// 		var OSCmessage = new OSCMessage(Address);//creates a new message
+	// 												 //check if the position of the dragon is changed then send the float data of the position to console 
+	// 												 //sending this data to osc
+	// 		float Dragon_position = transform.localPosition.x;
+			
+	// 		// OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
+	// 		// OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
+	// 		// // Debug.Log("send OSC + " + OSCmessage);
+	// 		// Transmitter.Send(OSCmessage);
+			
+	// 	}
 
 		#endregion
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 //OSC SENDING MESSAGE CONCEPT
 

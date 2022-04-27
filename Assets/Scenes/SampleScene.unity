@@ -774,7 +774,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9410995, y: 1}
+    m_SensorSize: {x: 3.2121212, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -790,7 +790,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774948299}
-  m_LocalRotation: {x: 1e-45, y: 0.0006638309, z: 0, w: 0.9999998}
+  m_LocalRotation: {x: 0, y: 0.0006638309, z: 0, w: 0.9999998}
   m_LocalPosition: {x: 32, y: 69.504, z: -206}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
@@ -876,7 +876,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 1e-45, y: 0.0006638309, z: 0, w: 0.9999998}
+  m_LocalRotation: {x: 0, y: 0.0006638309, z: 0, w: 0.9999998}
   m_LocalPosition: {x: 32, y: 69.504, z: -206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1054,21 +1054,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222053918}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b79ec27d65c6ff14e8465bf92913665f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Address: /unitydragon
   Transmitter: {fileID: 2118181347}
-  speed: 30
-  jumpForce: 300
-  Blowing_FireSound: {fileID: 0}
-  DragonWalking_Sound: {fileID: 0}
-  BG_Sound: {fileID: 0}
-  End_Sound: {fileID: 0}
-  StartMenu_Sound: {fileID: 0}
-  OSCdragon: {fileID: 1222053918}
 --- !u!114 &1222053925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,7 +1075,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Address: /Dragon_movement
   Receiver: {fileID: 2118181346}
-  speed: 20
 --- !u!95 &1222053926
 Animator:
   serializedVersion: 4
