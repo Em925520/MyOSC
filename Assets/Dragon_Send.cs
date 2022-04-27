@@ -50,21 +50,6 @@ namespace extOSC.Examples
 
 		#region Unity Methods
 
-		// protected virtual void Start()
-		// {
-
-		// }
-
-        // private void OnMouseDown()
-        // {
-		// 	Debug.Log("sending OSC");
-		// 	var message = new OSCMessage(Address);
-		// 	message = new OSCMessage(Address);
-		// 	message.AddValue(OSCValue.Float(1));
-		// 	// message.AddValue(OSCValue.String("a second value"));
-
-		// 	Transmitter.Send(message);
-		// }
 
 		 void Start()
 		{
@@ -170,6 +155,18 @@ namespace extOSC.Examples
 			// Transmitter.Send(OSCmessage);
 			
 		}
+
+		//换成trigger;
+		// private void OnMouseDown()
+        // {
+		// 	Debug.Log("sending OSC");
+		// 	var message = new OSCMessage(Address);
+		// 	message = new OSCMessage(Address);
+		// 	message.AddValue(OSCValue.Float(1));
+		// 	// message.AddValue(OSCValue.String("a second value"));
+
+		// 	Transmitter.Send(message);
+		// }
 
 		#endregion
 	}

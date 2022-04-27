@@ -100,11 +100,11 @@ namespace extOSC.Examples
 
 
             //BLOW SENSOR
-            //string scaleRaw0 = message.Values[0].StringValue;
-            //Debug.Log("val[0]: " + scaleRaw0);
-            //float scaleInt0 = float.Parse(message.Values[0].StringValue) * 10;
+            string blowValRaw = message.Values[0].StringValue;
+            //Debug.Log("blowValRaw: " + blowValRaw);
+            float blowValFloat = float.Parse(blowValRaw);
             //transform.position = new Vector2(transform.position.x, transform.position.y + scaleInt0);//喷火
-
+			//transform.position替换成喷火效果，blowValFloat==1的时候，喷火；blowValFloat==0或者不等于1的时候不喷火；
             //***RIGHT;
             string rightValRaw = message.Values[1].StringValue;	//read the stirng array		
 			float rightValFloat = float.Parse(rightValRaw);      //convert into float
