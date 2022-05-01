@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 8a368698231774045adb4169ce9e0632
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 89
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6796a492c9c4f4ea5dc1305eef67d2
+      internalID: -1896004129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 87
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e44c23aea4d0244cb6bf976d0baa659
+      internalID: 2077451879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 88
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247df2c9dcc1d554a8fc8909d5ffcc9f
+      internalID: -818701584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 88
+        width: 72
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f31fd46d43487489bb913665ebf417
+      internalID: -892030707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 88
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21a48260d62244091fc61eb2ce6527
+      internalID: -1988030228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 87
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cb409e7bb330446844172cfc3daac0
+      internalID: 329938224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 88
+        width: 78
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cedb663fb297f442a478752e934cabd
+      internalID: 1967160382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 157
+        width: 83
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2a9557017d3e949b8c909cdc1e3470
+      internalID: 1967572702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 157
+        width: 83
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8c77a1d31bd140a41b347db818eda
+      internalID: -531868448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 157
+        width: 73
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbb91e891ab8834fbfdb732d64da879
+      internalID: 789278595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_10
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 159
+        width: 72
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73092abf7cb59d84ba3baff3abb60e6b
+      internalID: -1662788495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 160
+        width: 77
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b2c517b31673a4ebe5399781b9d362
+      internalID: 1206549419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 160
+        width: 83
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5264a3fcd53944442a395f6204ff2891
+      internalID: 469330070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_13
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 159
+        width: 83
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daff59333a73f8c4c92d28c122854c55
+      internalID: -513025212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 291
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978ed9d9e76631442ae454e4c4d9fa0c
+      internalID: -1821979179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 291
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc65ae98051fed468bc7b75331dc55f
+      internalID: -583561685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 291
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80049e3e250f01545a0c79e5d2142236
+      internalID: -966285626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 291
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a4ea3a97302440996f54e66aab10a
+      internalID: -1207921909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_18
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 292
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beaa65ac01030447990139506e762ef
+      internalID: -1064143885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_19
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 292
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9040ffdefec84642b45d8b2d3bdbaea
+      internalID: -784919448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 292
+        width: 76
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b187d57ad063fc4d83055c61c487e50
+      internalID: 1683029051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 23
+        width: 83
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3188371113ae64c93dc5cbec9fb3e4
+      internalID: 1281882222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 24
+        width: 79
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280cf1b8639c9fe4fb0a899e31303df5
+      internalID: -1309022796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 22
+        width: 72
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae84c8b2bde0c94c959f088df2da8a8
+      internalID: -1255810015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 21
+        width: 72
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd68a77e3deed24baf6bb4ce2ec7ea2
+      internalID: 2042809153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_25
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 22
+        width: 85
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b44ae5f1f816c54582c061d1cdb46cc
+      internalID: 1784369833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_26
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 11
+        width: 85
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa729d0c93a834a8ddf0c61764d7cb
+      internalID: 705077554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_KNIGHT_2_27
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 11
+        width: 85
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4f562f4348c404fb252944851341d2
+      internalID: 1551313853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1_KNIGHT_2_16: -583561685
+      1_KNIGHT_2_13: 469330070
+      1_KNIGHT_2_9: -531868448
+      1_KNIGHT_2_12: 1206549419
+      1_KNIGHT_2_11: -1662788495
+      1_KNIGHT_2_26: 1784369833
+      1_KNIGHT_2_4: -892030707
+      1_KNIGHT_2_28: -1290102678
+      1_KNIGHT_2_10: 789278595
+      1_KNIGHT_2_25: 2042809153
+      1_KNIGHT_2_2: 2077451879
+      1_KNIGHT_2_7: 1967160382
+      1_KNIGHT_2_8: 1967572702
+      1_KNIGHT_2_18: -1207921909
+      1_KNIGHT_2_19: -1064143885
+      1_KNIGHT_2_27: 705077554
+      1_KNIGHT_2_24: -1255810015
+      1_KNIGHT_2_23: -1309022796
+      1_KNIGHT_2_1: -1896004129
+      1_KNIGHT_2_3: -818701584
+      1_KNIGHT_2_6: 329938224
+      1_KNIGHT_2_17: -966285626
+      1_KNIGHT_2_5: -1988030228
+      1_KNIGHT_2_20: -784919448
+      1_KNIGHT_2_0: 1670424978
+      1_KNIGHT_2_22: 1281882222
+      1_KNIGHT_2_14: -513025212
+      1_KNIGHT_2_21: 1683029051
+      1_KNIGHT_2_15: -1821979179
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
