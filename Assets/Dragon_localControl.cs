@@ -22,12 +22,12 @@ public class Dragon_localControl : MonoBehaviour
 
 
 	//AudioClip is an audio sound file. AudioSource is a component that plays AudioClips.
-	AudioSource _audioSource;
-	public AudioClip Blowing_FireSound;
-private AudioClip DragonWalking_Sound;
+	public AudioSource _audioSource;
+	public  AudioClip Blowing_FireSound;
+	public AudioClip DragonWalking_Sound;
 	public AudioClip BG_Sound;
 	public AudioClip End_Sound;//entering the castle at the end
-	public AudioClip StartMenu_Sound;
+	private AudioClip StartMenu_Sound;
 
 	//bool dragonblowing_fire = false;
 	//bool dragonflying = false;
@@ -57,8 +57,8 @@ private AudioClip DragonWalking_Sound;
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_animator = GetComponent<Animator>();
 
-		_audioSource = GetComponent<AudioSource>();
-		//DragonWalking_Sound = GetComponent<AudioSource>();
+		//_audioSource = GetComponent<AudioSource>();
+	//	DragonWalking_Sound = GetComponent<AudioClip>();
 		
 
 
@@ -82,6 +82,10 @@ private AudioClip DragonWalking_Sound;
 				transform.localScale = left;
 				//_audioSource.clip = DragonWalking_Sound;
 				//_audioSource.Play();
+				Debug.Log("audio source playing?");
+				//DragonWalking_Sound.Play();
+
+
 				_rigidbody.velocity = transform.up * up_Speed;
 				
 			}

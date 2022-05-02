@@ -7,13 +7,8 @@ public class TriggerDisable : MonoBehaviour
     // Start is called before the first frame update
   
     public GameObject Food;
-    public AudioClip EattingFood_Sound;
-    private AudioSource _audiosource;
+ 
 
-    private void Start()
-    {
-        _audiosource = GetComponent<AudioSource>();
-    }
     void OnCollisionEnter2D(Collision2D other)
     {// if the player touches the object then disable itself (it will disappear
         if (other.gameObject.CompareTag( "Player"))
@@ -21,7 +16,7 @@ public class TriggerDisable : MonoBehaviour
             //Food.SetActive(false); //disable the object
             Destroy(Food); //this will also work, same to the code line above
             Debug.Log("yum yumm");
-            _audiosource.Play();
+         
             ScoringSystem.theScore += 1; // plus one whenver you ate a food
         }
     }
