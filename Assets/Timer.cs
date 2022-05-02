@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timerText;
     bool timerStarted = false;
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") && !timerStarted)//if the player touches this object and timer did not start yet
         {

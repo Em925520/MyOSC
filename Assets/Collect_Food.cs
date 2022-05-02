@@ -6,13 +6,19 @@ using UnityEngine;
 public class Collect_Food : MonoBehaviour
 {
     public AudioSource collectSound;
+ 
 
-    void OnTriggerEnter2D(Collider2D other)
+    
+      void OnTriggerEnter2D(Collider2D other)
     {
         collectSound.Play();
 
-        ScoringSystems.theScore += 1;
+        ScoringSystem.theScore += 1;
 
         Destroy(gameObject);
     }
+    
+
+    
+   
 }
