@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCOde : MonoBehaviour
+public class Enemy_Code : MonoBehaviour
 {
     public float speed = 0.5f;
     public float radius = 5;
@@ -11,7 +11,7 @@ public class EnemyCOde : MonoBehaviour
     public LayerMask groundLayer;
     public LayerMask playerLayer;
     public Transform feet;
-    Rigidbody2D _rigidbody2D;
+    Rigidbody2D _rigidbody2D; //use this to manipulate the movement of the object
 
     void Start()
     {

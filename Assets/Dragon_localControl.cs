@@ -36,6 +36,8 @@ public class Dragon_localControl : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+		// Freeze the rotation
+		//rigidbody.freezeRotation = true;
 
 		// Ayo's feedback : if player moves > 100; then send osc message data and replace it with a new position value
 		//Daniel's feedback: checking the osc mesage every frame isn't a prblem but checking the data and then send it within a certain position/time
