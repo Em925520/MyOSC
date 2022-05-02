@@ -22,9 +22,9 @@ public class Dragon_localControl : MonoBehaviour
 
 
 	//AudioClip is an audio sound file. AudioSource is a component that plays AudioClips.
-	AudioSource _audiosource;
+	AudioSource _audioSource;
 	public AudioClip Blowing_FireSound;
-	public AudioClip DragonWalking_Sound;
+private AudioClip DragonWalking_Sound;
 	public AudioClip BG_Sound;
 	public AudioClip End_Sound;//entering the castle at the end
 	public AudioClip StartMenu_Sound;
@@ -57,9 +57,11 @@ public class Dragon_localControl : MonoBehaviour
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_animator = GetComponent<Animator>();
 
-		_audiosource = GetComponent<AudioSource>();
-
+		_audioSource = GetComponent<AudioSource>();
 		//DragonWalking_Sound = GetComponent<AudioSource>();
+		
+
+
 	}
 
     // Update is called once per frame
@@ -73,31 +75,27 @@ public class Dragon_localControl : MonoBehaviour
 		{
 			_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);// character drop onto the platform and slide left and right
 																			 //remember to go to contraints in the rigid body inspector and lock z : the player can stop at the edge 
-			//DragonWalking_Sound.Play();
-
-
-
-
-
-
-
-
 
 
 			if (xSpeed < 0 && transform.localScale.x > 0)
 			{
 				transform.localScale = left;
+				//_audioSource.clip = DragonWalking_Sound;
+				//_audioSource.Play();
 				_rigidbody.velocity = transform.up * up_Speed;
 				
 			}
 			else if (xSpeed > 0 && transform.localScale.x < 0)
 			{
 				transform.localScale = right;
+				
 				_rigidbody.velocity = transform.up * up_Speed;
 			}
 
 			//making sure the dragon is flying in both directions checking within speed
 			_animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
+
+			
 
 		}
 		/*if (Input.GetKeyDown("space"))
@@ -129,6 +127,8 @@ public class Dragon_localControl : MonoBehaviour
 		{
 			//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
 			_rigidbody.velocity = -transform.up * up_Speed;
+			//DragonWalking_Sound.Play();
+			
 		}
 	}
 }
