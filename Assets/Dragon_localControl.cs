@@ -20,11 +20,13 @@ public class Dragon_localControl : MonoBehaviour
 	public bool isGrounded = false;//bool checks if a statement is true or false
 								   // public GameObject FallingPlatform;
 
+	
+
 
 	//AudioClip is an audio sound file. AudioSource is a component that plays AudioClips.
 	AudioSource _audioSource;
 	public AudioClip Blowing_FireSound;
-private AudioClip DragonWalking_Sound;
+	public AudioClip DragonWalking_Sound;
 	public AudioClip BG_Sound;
 	public AudioClip End_Sound;//entering the castle at the end
 	public AudioClip StartMenu_Sound;
@@ -95,7 +97,20 @@ private AudioClip DragonWalking_Sound;
 			//making sure the dragon is flying in both directions checking within speed
 			_animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
-			
+			isGrounded = Physics2D.OverlapCircle(feet.position, .3f, groundLayer);
+			_animator.SetBool("Grounded", isGrounded);
+
+
+			if (Input.GetButtonDown("Jump") && isGrounded)//force jump while grounded on the ground floor
+			{//remember to tag ground in ground layer that are created then drag ground to "ground" in player inspecter
+				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0); //set velocity to 0 before addforce there the player won't jump extra or launch themselves after pressing on jump mutiple time
+				_rigidbody.AddForce(new Vector2(0, jumpForce));
+
+			}
+
+
+
+
 
 		}
 		/*if (Input.GetKeyDown("space"))
@@ -116,20 +131,7 @@ private AudioClip DragonWalking_Sound;
 		}
 		*/
 
-		//this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
-		if (Input.GetKey(KeyCode.UpArrow))
-		{
-			//Move the Rigidbody upwards constantly at speed you define (the green arrow axis in Scene view)
-			_rigidbody.velocity = transform.up * up_Speed;
-		}
-
-		if (Input.GetKey(KeyCode.DownArrow))
-		{
-			//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
-			_rigidbody.velocity = -transform.up * up_Speed;
-			//DragonWalking_Sound.Play();
-			
-		}
+		
 	}
 }
 
@@ -155,3 +157,26 @@ private AudioClip DragonWalking_Sound;
 //for arduino to receive the data of the player position, use the above code and transfer it to the dragon_receive. now you can control
 //the movement using the pressure sensor instead of the local keys on your computer
 //老师帮我们把这边的playercode transfer 到dragon receive那边去了
+
+
+
+
+
+
+/*上下用up down arrow 移动object
+ * this might be better to do if we have a separate controller for flying up and left and right for the pressure sencor
+if (Input.GetKey(KeyCode.UpArrow))
+{
+	//Move the Rigidbody upwards constantly at speed you define (the green arrow axis in Scene view)
+	_rigidbody.velocity = transform.up * up_Speed;
+}
+
+if (Input.GetKey(KeyCode.DownArrow))
+{
+	//Move the Rigidbody downwards constantly at the speed you define (the green arrow axis in Scene view)
+	_rigidbody.velocity = -transform.up * up_Speed;
+	//DragonWalking_Sound.Play();
+
+}  
+
+*/
