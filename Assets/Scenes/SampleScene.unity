@@ -1032,7 +1032,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0881057, y: 1}
+    m_SensorSize: {x: 2.3891304, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1440,7 +1440,7 @@ GameObject:
   - component: {fileID: 1222053927}
   - component: {fileID: 1222053928}
   m_Layer: 7
-  m_Name: OSC Dragon
+  m_Name: OSC Dragon(Player)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1621,6 +1621,7 @@ MonoBehaviour:
     m_Bits: 128
   isGrounded: 1
   Blowing_FireSound: {fileID: 0}
+  DragonWalking_Sound: {fileID: 0}
   BG_Sound: {fileID: 0}
   End_Sound: {fileID: 0}
   StartMenu_Sound: {fileID: 0}
