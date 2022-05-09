@@ -12,7 +12,7 @@ public class Dragon_localControl : MonoBehaviour
 
 
 	public int speed = 20;
-	public int jumpForce = 300;
+	public int flyForce = 300;
 	Rigidbody2D _rigidbody;
 	Animator _animator;
 	public Transform feet; //assigned with empty game object and tag on the player's feet
@@ -34,7 +34,7 @@ public class Dragon_localControl : MonoBehaviour
 	//bool dragonblowing_fire = false;
 	//bool dragonflying = false;
 	public GameObject OSCdragon;
-	float up_Speed = 10f;
+	//float up_Speed = 50f;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -65,6 +65,7 @@ public class Dragon_localControl : MonoBehaviour
 
 
 	}
+	
 
     // Update is called once per frame
     void Update()
@@ -84,14 +85,14 @@ public class Dragon_localControl : MonoBehaviour
 				transform.localScale = left;
 				//_audioSource.clip = DragonWalking_Sound;
 				//_audioSource.Play();
-				_rigidbody.velocity = transform.up * up_Speed;
+				
 				
 			}
 			else if (xSpeed > 0 && transform.localScale.x < 0)
 			{
 				transform.localScale = right;
 				
-				_rigidbody.velocity = transform.up * up_Speed;
+				
 			}
 
 			//making sure the dragon is flying in both directions checking within speed
@@ -101,10 +102,10 @@ public class Dragon_localControl : MonoBehaviour
 			_animator.SetBool("Grounded", isGrounded);
 
 
-			if (Input.GetButtonDown("Jump") && isGrounded)//force jump while grounded on the ground floor
+			if ( isGrounded)//force jump while grounded on the ground floor
 			{//remember to tag ground in ground layer that are created then drag ground to "ground" in player inspecter
 				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0); //set velocity to 0 before addforce there the player won't jump extra or launch themselves after pressing on jump mutiple time
-				_rigidbody.AddForce(new Vector2(0, jumpForce));
+				_rigidbody.AddForce(new Vector2(0, flyForce));
 
 			}
 
@@ -150,7 +151,8 @@ public class Dragon_localControl : MonoBehaviour
  * doesnt work
 			if(transform.position.y > 50 )
             {
-				_rigidbody.velocity = -transform.up * up_Speed;
+				_rigidbody.velocity = transform.up * up_Speed; (you can move the object up with this line
+
 			}*/
 
 
