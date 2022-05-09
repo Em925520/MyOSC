@@ -9,7 +9,7 @@ public class Dragon_localControl : MonoBehaviour
 	Vector2 right;
 	//Vector2 up;
 	public Vector2 localPosition;
-
+	public GameObject Enemy;
 
 	public int speed = 20;
 	public int flyForce = 300;
@@ -30,8 +30,8 @@ public class Dragon_localControl : MonoBehaviour
 	public AudioClip BG_Sound;
 	public AudioClip End_Sound;//entering the castle at the end
 	public AudioClip StartMenu_Sound;
+	bool dragonblowing_fire = false;
 
-	//bool dragonblowing_fire = false;
 	//bool dragonflying = false;
 	public GameObject OSCdragon;
 	//float up_Speed = 50f;
@@ -114,15 +114,16 @@ public class Dragon_localControl : MonoBehaviour
 
 
 		}
-		/*if (Input.GetKeyDown("space"))
+		
+		if (Input.GetKeyDown("space") )
 		{
 			//checking if dragon is blowing fire left or right
 			dragonblowing_fire = true;
 			_animator.SetBool("isblowingLR_fire", true);
-
-			//checking if dragon is blowing fire down
-
-			//_animator.SetBool("isblowingdown_fire", true);
+           // if (gameObject.CompareTag("Enemy"))
+            //{
+				Destroy(Enemy);
+			//}
 		}
 		else {
 			if(Input.GetKeyUp("space")){
@@ -130,9 +131,15 @@ public class Dragon_localControl : MonoBehaviour
 				_animator.SetBool("isblowingLR_fire", false);
 			}
 		}
+
+		/*void OnCollisionEnter2D(Collision2D other)
+		{
+			canJump = true;
+		}
 		*/
 
 		
+
 	}
 }
 

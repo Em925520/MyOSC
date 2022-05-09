@@ -1010,10 +1010,10 @@ TextureImporter:
       name: PC Computer - Heroes of Might and Magic 2 - Red Dragon_47
       rect:
         serializedVersion: 2
-        x: 748
-        y: 279
-        width: 242
-        height: 116
+        x: 742
+        y: 262
+        width: 255
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
