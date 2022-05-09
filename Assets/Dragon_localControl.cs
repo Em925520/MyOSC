@@ -105,7 +105,7 @@ public class Dragon_localControl : MonoBehaviour
 			if ( isGrounded)//force jump while grounded on the ground floor
 			{//remember to tag ground in ground layer that are created then drag ground to "ground" in player inspecter
 				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0); //set velocity to 0 before addforce there the player won't jump extra or launch themselves after pressing on jump mutiple time
-				_rigidbody.AddForce(new Vector2(0, flyForce));
+				_rigidbody.AddForce(new Vector2(xSpeed, flyForce));
 
 			}
 
@@ -122,7 +122,7 @@ public class Dragon_localControl : MonoBehaviour
 			_animator.SetBool("isblowingLR_fire", true);
            // if (gameObject.CompareTag("Enemy"))
             //{
-				Destroy(Enemy);
+				//Destroy(Enemy);
 			//}
 		}
 		else {

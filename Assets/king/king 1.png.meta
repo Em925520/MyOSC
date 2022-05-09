@@ -1,0 +1,3378 @@
+fileFormatVersion: 2
+guid: 25a5f89b11f0b5c47ae1cc6d36ddd59b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: king 1_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 504
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d9cbfa7c47aa946a291e907a8ea5a5
+      internalID: -150227801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 384
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa43bcb24d37ea4ab9db2a6ac4b1720
+      internalID: -21541027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe1b3232f7a3b34f96023f439ff0594
+      internalID: -1066795392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c7d44b8a2aece4ab8d310cb8178991
+      internalID: -840802784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f974632f67044543940314a04f15765
+      internalID: -1740032369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 492
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01f3d5012e867479f3cc8cffc1ebbd
+      internalID: -1506213436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 488
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c81603bf3a5a864fa83789379f3e3a1
+      internalID: -1154070877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_7
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 372
+        width: 60
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a023819749cba54c8c72b7d6b48b646
+      internalID: 1321347687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c865c4e681d9f404691c2eff4a10d528
+      internalID: -2056203874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827715c3cc9bb3f4cb34fe4f1fe6e31b
+      internalID: -1289800359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 384
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ea80faa07fc340a41f49a3ee7e87d
+      internalID: 1326814041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 384
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda03cbc277cb54982cdb9f6e79b8ea
+      internalID: 1710420443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a740649deb2123408b155cecf0356dd
+      internalID: -636101948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_13
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdc8c4907f85a46b462eb95477c9f5
+      internalID: -1975516463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_14
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 380
+        width: 60
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a254ff46f4290f418a1381aa030510e
+      internalID: -266489786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_15
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05354a13a553ee408a10524a659b69a
+      internalID: -1343043805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 384
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52623bf65fb6417469a634ce005587cd
+      internalID: -1411637270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 452
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2332954f221f144191f48393c6b4419
+      internalID: 1522607728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 452
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26210a47117482a42bf72b33d640fff3
+      internalID: 1089737684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_19
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 452
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866da5d4c520ee64db62841e052e2bc8
+      internalID: -280197451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 452
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbca91a8addfa8478292bb1c02a8d2e
+      internalID: -616971664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 440
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53503d8253dee2448bbb016749ff9b81
+      internalID: 851196808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 444
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872451dc387281c419c24cc850209bfe
+      internalID: -1415648141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 440
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4350f6badc66ba44586a6d147ba27a4c
+      internalID: -1763958361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_24
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 444
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09606a4f13ebf3149be7128f8e303897
+      internalID: -1304224724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 440
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becd032b166288e4f99af5f9bbedc08e
+      internalID: -1643120850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_26
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 444
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc253a300c6e28a4eaded6803735b4b7
+      internalID: -149718330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 440
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af91644228751a4ca3c734e1379cb8e
+      internalID: -930983243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_28
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 440
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832741f6520124a4a95d3815c2239e1d
+      internalID: 1501480267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 440
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9406337df077eee439c3a078099c914b
+      internalID: -733242115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 428
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29300015ffbe2b489a0b6a1a509e41b
+      internalID: -476190242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_31
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 416
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932422e7750d0b4191d15d0bc840461
+      internalID: -1227108283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_32
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 404
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e3c662f001c34eb334785e8f89c0c
+      internalID: 2089238221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_33
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 404
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bebcd550bbc96844b7946faf91b8683
+      internalID: -705554181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 404
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078cebc53f3cec84199efa997c752fed
+      internalID: -1449302727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9d2009e3d004e409bf4c0f18b8e1a2
+      internalID: -540031895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 388
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d323ca9b59ba9494fafd7fc92c8ec15a
+      internalID: -447228459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1dd2fab3fab24468063470c53becd2
+      internalID: 1627005534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 384
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a94549fef61a04b8be2ebc25edc075
+      internalID: -1778961498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_39
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 380
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a73687c252b3344a8355e2dfe47344
+      internalID: -292950544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 376
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafe0c18bbb57644db5fd73bcad0e8cb
+      internalID: -836758327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 376
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4c7338bb544bb4aa734f5c91035403
+      internalID: 463342286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_42
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 372
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c611eeb1d4dd47749acb921318a2852d
+      internalID: 2062013637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_43
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 372
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42345af4f88c9694e83737ce7d0787d3
+      internalID: -1816041462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a639c245dea941901f569e1fdbc8c
+      internalID: -928003195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2492eb1eabb8e43498be0a69681c9789
+      internalID: 532351187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_46
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ac5019cd784a74f85401288e5caf80
+      internalID: 1984048721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_47
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7c4538322dd9a4fbace8097cca815b
+      internalID: -119773586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 356
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d4248e94418940af1d973255e75aa
+      internalID: 1742919349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_49
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 356
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faf74fbc01cd344b84f956221cdf1e0
+      internalID: -1972793015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_50
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 352
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4266b8531539438da4f8d3bc8c6da
+      internalID: 1577282030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 352
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad68a135a91d454ca029443856cebd5
+      internalID: 1629833358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 352
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3007a209cf394e645a3d1474abd55214
+      internalID: -1363615032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_53
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 352
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9448be20f101f004f98a1666c13ffd38
+      internalID: -1436236795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_54
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 256
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348e4e4574fd96240ac75faebfd5b377
+      internalID: 669079419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_55
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 344
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c097870a33794749839bdea7a26eda2
+      internalID: -115801997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_56
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 256
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853e4c9ed72cb83419eb12d8308c2a02
+      internalID: 629946899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_57
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 256
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37a1d7177faaa40abc3ebdca61f1b9
+      internalID: 658647542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da8441ac4fdc341862eef2e4bd6b50
+      internalID: -1914021405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_59
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 336
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b0e27a5e832f24fa0df4a9633ab4fb
+      internalID: -412151615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_60
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 324
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad8983ab106c7f4bb7c3b0c3b0447cc
+      internalID: 2048117062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_61
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 324
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7ad18247d5be141b127a20bcf1b844
+      internalID: 1281650607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_62
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 324
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56040b9240f334bbb583004331fb02
+      internalID: -1069935878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_63
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 316
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798a661840d38b4c968c27be39e7f81
+      internalID: -824525649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_64
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73baa179ab875b4a8c3855b79c5943b
+      internalID: 1579475398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 312
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817eee132dc186c4bacbe4c2d8032d42
+      internalID: -1119042632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_66
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f73ca246baf394ca56de3892b34b4b
+      internalID: -1854850131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_67
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 280
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba112d745b62dca4a961b91a14f9f0ba
+      internalID: -514991895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_68
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 280
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88984f92c4abf7243b5b728af3159849
+      internalID: 793161988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_69
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aba9b48609dc0b4284a078b3b2a4f12
+      internalID: -461570896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea12942ed8fcb5941a7e7045abdb4cbc
+      internalID: 1891620380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 272
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444107567c713cb4b981d86361395921
+      internalID: -714344822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 272
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62208e8f6854d15418821714a44a9af4
+      internalID: -294931969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_73
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 256
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a5aadbb87192e4489e3b462bf42a13
+      internalID: 618491621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520948f827486d4e94d8e399580224e
+      internalID: 937279523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_75
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 248
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b96d86247cede40806a755b8d8c923
+      internalID: -1356186250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_76
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 248
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b0fa0a5c16cce43b3f084291a12121
+      internalID: -2146707279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_77
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 248
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c73924e08a0cc4092f981e7ede26fd
+      internalID: -904343688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_78
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 248
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6ee9013b62f2c4faa820b205b7709b
+      internalID: -1691546659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_79
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9965e2794e7a7498ad77793f7a19e0
+      internalID: 2032503621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_80
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 236
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2e81db942998a4b84577a797599a41
+      internalID: -453367119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b9f2c59e2aa34dbb4492594069b25
+      internalID: -1091362911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_82
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd79ea88d1fbcd46ae9aff693b81899
+      internalID: -797360340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_83
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144a989d40078f44a3305f75ebb2611
+      internalID: 1530711583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_84
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 224
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803e7cf5356e0e249ac4be896e43fd7c
+      internalID: -970031304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_85
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 224
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5007f89d4df5ff408b00319210d5be1
+      internalID: 547053393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_86
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671db3c964ae2f64aadd549a1e91c36f
+      internalID: -1153969237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_87
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c65ae4a22e254a9f8d61b6c2b5f48
+      internalID: 2130919443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_88
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afc40977299ce54f971b61ff77cb9de
+      internalID: 1556096779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a172b9c428fbbd24f8eeaf5ac91050e4
+      internalID: -1157336689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75813802b280198448eb7aa0bc87e311
+      internalID: 647599807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_91
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd8e5221176f16408d3e4137d4f72bd
+      internalID: -1724882446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_92
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b59a53ab6c4e7041affe3cf360bdb1c
+      internalID: 1121042905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_93
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 208
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b8394844aa2042948885a72bfa712
+      internalID: -2043249358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_94
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 188
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d81fab69151e4429570459e3cfb6d3
+      internalID: -1261415778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_95
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 188
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d731d24e7594264bbeb989384ef7a83
+      internalID: -1931478992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_96
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 192
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b57435c1470154589be56b5b1ac3b7
+      internalID: 245468787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_97
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 188
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baba04ee62bd4047821ed9bd35b8238
+      internalID: 369396568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 176
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a72c951412f1b54786ec41b06a05da2
+      internalID: 1398537630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_99
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 164
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a9a7231827efd498456f1a7fc329c7
+      internalID: 416886017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_100
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b96f32a69e52b4a87254646f92c739
+      internalID: 1790885001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_101
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c009403ec094da46b01e411f2db261a
+      internalID: -1482344984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_102
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 144
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d211abdd02eba64592432824a1625f2
+      internalID: 2098921392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_103
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e8a083613edb4cb93709d4724fe95
+      internalID: 677291288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_104
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3661a875d13a28649b8ee8aa956beb1a
+      internalID: 594624950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_105
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77e0b9e5ba1d92458d389ee15b94ec7
+      internalID: 219335959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_106
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0558a4fa88dbb3d4a9555e744fc560df
+      internalID: -529627570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_107
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d73369dcade54d81148618789dc5c
+      internalID: -2028418081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_108
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 124
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaaa54c1c93ed144b0915743a7d4487
+      internalID: 1872247888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_109
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a275a2116a74994dbed33a899b5b081
+      internalID: -1094853120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_110
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 112
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c194d9f94aafcc0429bd185dabd43598
+      internalID: 164109000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_111
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fb72b0fb091dc4f93379f32dac0edc
+      internalID: 907698697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_112
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1bc24d4b27294a9aeb109444d4e08
+      internalID: -440376885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_113
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e818c24df6bc4ba87cf5350490e11
+      internalID: -666964704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_114
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500876dbc57fc440827506f9f0d0c71
+      internalID: -1693197997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea5f0ddd5415743af6839070d59028
+      internalID: -2058094193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a32d1d7d34ff049a0a1369577b5cab
+      internalID: -1507034693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4fac2aa7289734286ff5a989ee3b19
+      internalID: -2012079541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_118
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fdad14d69509b418bbaf38b5edf243
+      internalID: -2109267617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_119
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07accdefdd93d6149920f43d1d0605e4
+      internalID: -111263615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_120
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 104
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c875a3664c156104aa3538fe8e4fa1d8
+      internalID: 1239543746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_121
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819f879be13880449b3944bc25fb485
+      internalID: 1747958075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_122
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 96
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47efb775b9157bc40a4aa33d3a64cc41
+      internalID: -661492204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_123
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4334deb8bd1a01458c4a79200d4c209
+      internalID: -1754973256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ced13df2206d249b0068155b62e48e
+      internalID: 644744152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_125
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8f030dca413f349a04075d625f585d
+      internalID: -871081686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_126
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec159909db3f504cba1a6e6020fddbc
+      internalID: 440068252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_127
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539499e160ce76540a1ea0894968a8a5
+      internalID: 1346161659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_128
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d641f6798384e4289e1d1282fea3ab
+      internalID: -994023519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_129
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1090f527bb16142a0591485b02d81e
+      internalID: -1248930024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_130
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04301c675f6fe5744a8ea48ab5374bf4
+      internalID: -212611126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_131
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269cc4e2e7ab334fabac870f5cea541
+      internalID: 1410243380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_132
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aeb7fec0b1ccd4988ab6d356cd32f3
+      internalID: 852082169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_133
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0967388b160344418373c84f4cd8588
+      internalID: 349514087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_134
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f038bcca5c4cc04c87fd6e63fe53ece
+      internalID: 1366110801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_135
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445a300ead889d848b81b2763e28a1c9
+      internalID: -1661034635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_136
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d543784eb0f5dfc449c9017eb59f6674
+      internalID: -1563838499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 44
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd109273b1126428cc4b91f4e54419
+      internalID: -496975549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_138
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74f788dcc4211f4c8588091349c471a
+      internalID: -1061749318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_139
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec402607456475478e17b516c2e354e
+      internalID: 283731348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_140
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ce0169536b44048a8e5249cc58ec89
+      internalID: -67769130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_141
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c1e987cf771fc4eb39f753f63e8695
+      internalID: 392875429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_142
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f7db8c8978cef4ead9183b579426b9
+      internalID: -1733329581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c842ece1dc4f4d92287578b378ff8
+      internalID: -2009422060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_144
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d601b1331cb124dba8ad8e1e5627a9
+      internalID: -1667700553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_145
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0e44155dd94534c91e0b8f5804610e
+      internalID: -16476103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_146
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3959f80e990a3143ab0966d43c1c2ad
+      internalID: -1011526271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king 1_147
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e220ba72c5131409d989287ff35faf
+      internalID: 1254919810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8b1d5eba79fee6542ba8f12e406faf4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      king 1_71: -714344822
+      king 1_30: -476190242
+      king 1_23: -1763958361
+      king 1_94: -1261415778
+      king 1_140: -67769130
+      king 1_135: -1661034635
+      king 1_14: -266489786
+      king 1_13: -1975516463
+      king 1_49: -1972793015
+      king 1_35: -540031895
+      king 1_56: 629946899
+      king 1_139: 283731348
+      king 1_70: 1891620380
+      king 1_136: -1563838499
+      king 1_89: -1157336689
+      king 1_84: -970031304
+      king 1_80: -453367119
+      king 1_117: -2012079541
+      king 1_26: -149718330
+      king 1_6: -1154070877
+      king 1_75: -1356186250
+      king 1_38: -1778961498
+      king 1_32: 2089238221
+      king 1_46: 1984048721
+      king 1_114: -1693197997
+      king 1_124: 644744152
+      king 1_100: 1790885001
+      king 1_60: 2048117062
+      king 1_98: 1398537630
+      king 1_54: 669079419
+      king 1_11: 1710420443
+      king 1_112: -440376885
+      king 1_18: 1089737684
+      king 1_10: 1326814041
+      king 1_58: -1914021405
+      king 1_74: 937279523
+      king 1_125: -871081686
+      king 1_52: -1363615032
+      king 1_86: -1153969237
+      king 1_76: -2146707279
+      king 1_66: -1854850131
+      king 1_15: -1343043805
+      king 1_119: -111263615
+      king 1_97: 369396568
+      king 1_103: 677291288
+      king 1_134: 1366110801
+      king 1_113: -666964704
+      king 1_120: 1239543746
+      king 1_68: 793161988
+      king 1_21: 851196808
+      king 1_105: 219335959
+      king 1_55: -115801997
+      king 1_39: -292950544
+      king 1_45: 532351187
+      king 1_101: -1482344984
+      king 1_143: -2009422060
+      king 1_116: -1507034693
+      king 1_108: 1872247888
+      king 1_34: -1449302727
+      king 1_65: -1119042632
+      king 1_81: -1091362911
+      king 1_126: 440068252
+      king 1_3: -840802784
+      king 1_137: -496975549
+      king 1_121: 1747958075
+      king 1_145: -16476103
+      king 1_41: 463342286
+      king 1_99: 416886017
+      king 1_4: -1740032369
+      king 1_88: 1556096779
+      king 1_27: -930983243
+      king 1_59: -412151615
+      king 1_111: 907698697
+      king 1_87: 2130919443
+      king 1_109: -1094853120
+      king 1_69: -461570896
+      king 1_1: -21541027
+      king 1_73: 618491621
+      king 1_42: 2062013637
+      king 1_51: 1629833358
+      king 1_17: 1522607728
+      king 1_24: -1304224724
+      king 1_8: -2056203874
+      king 1_90: 647599807
+      king 1_138: -1061749318
+      king 1_146: -1011526271
+      king 1_0: -150227801
+      king 1_12: -636101948
+      king 1_25: -1643120850
+      king 1_29: -733242115
+      king 1_36: -447228459
+      king 1_82: -797360340
+      king 1_61: 1281650607
+      king 1_85: 547053393
+      king 1_118: -2109267617
+      king 1_106: -529627570
+      king 1_67: -514991895
+      king 1_83: 1530711583
+      king 1_33: -705554181
+      king 1_95: -1931478992
+      king 1_128: -994023519
+      king 1_102: 2098921392
+      king 1_147: 1254919810
+      king 1_72: -294931969
+      king 1_96: 245468787
+      king 1_132: 852082169
+      king 1_77: -904343688
+      king 1_19: -280197451
+      king 1_141: 392875429
+      king 1_144: -1667700553
+      king 1_28: 1501480267
+      king 1_123: -1754973256
+      king 1_22: -1415648141
+      king 1_57: 658647542
+      king 1_64: 1579475398
+      king 1_2: -1066795392
+      king 1_62: -1069935878
+      king 1_7: 1321347687
+      king 1_16: -1411637270
+      king 1_78: -1691546659
+      king 1_53: -1436236795
+      king 1_63: -824525649
+      king 1_91: -1724882446
+      king 1_47: -119773586
+      king 1_130: -212611126
+      king 1_43: -1816041462
+      king 1_93: -2043249358
+      king 1_44: -928003195
+      king 1_127: 1346161659
+      king 1_5: -1506213436
+      king 1_20: -616971664
+      king 1_48: 1742919349
+      king 1_40: -836758327
+      king 1_92: 1121042905
+      king 1_79: 2032503621
+      king 1_37: 1627005534
+      king 1_31: -1227108283
+      king 1_107: -2028418081
+      king 1_133: 349514087
+      king 1_104: 594624950
+      king 1_110: 164109000
+      king 1_122: -661492204
+      king 1_131: 1410243380
+      king 1_142: -1733329581
+      king 1_129: -1248930024
+      king 1_115: -2058094193
+      king 1_9: -1289800359
+      king 1_50: 1577282030
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
