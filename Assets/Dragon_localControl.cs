@@ -9,7 +9,7 @@ public class Dragon_localControl : MonoBehaviour
 	Vector2 right;
 	//Vector2 up;
 	public Vector2 localPosition;
-	public GameObject Enemy;
+	//public GameObject Enemy;
 
 	public int speed = 20;
 	public int flyForce = 300;
@@ -35,7 +35,7 @@ public class Dragon_localControl : MonoBehaviour
 	//bool dragonflying = false;
 	public GameObject OSCdragon;
 	//float up_Speed = 50f;
-	// Start is called before the first frame update
+
 	void Start()
     {
 		// Freeze the rotation
@@ -120,10 +120,11 @@ public class Dragon_localControl : MonoBehaviour
 			//checking if dragon is blowing fire left or right
 			dragonblowing_fire = true;
 			_animator.SetBool("isblowingLR_fire", true);
-           // if (gameObject.CompareTag("Enemy"))
-            //{
-				//Destroy(Enemy);
-			//}
+           /* if (gameObject.CompareTag("Player"))
+            {
+				Destroy(Enemy);
+			}
+		   */
 		}
 		else {
 			if(Input.GetKeyUp("space")){

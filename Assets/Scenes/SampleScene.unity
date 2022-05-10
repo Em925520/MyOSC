@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2474.6, y: 18.4777}
+  m_AnchoredPosition: {x: -2474.6, y: 18.474}
   m_SizeDelta: {x: 839.41, y: 554.7369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83592446
@@ -1809,7 +1809,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9133574, y: 1}
+    m_SensorSize: {x: 1.7014446, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2213,7 +2213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2576.0999, y: -134.69998}
+  m_AnchoredPosition: {x: -2576.1, y: -136.9}
   m_SizeDelta: {x: 39.8198, y: 27.5834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089680726
@@ -2343,6 +2343,7 @@ MonoBehaviour:
     m_Bits: 128
   player: {fileID: 1222053919}
   Enemy: {fileID: 1089680724}
+  dragonblowing_fire: {fileID: 1222053927}
 --- !u!1 &1149555138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2602,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0892539, y: -1.6822243}
+  m_Offset: {x: -0.56103325, y: -1.4463072}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2612,7 +2613,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 31.554226, y: 31.808502}
+  m_Size: {x: 26.364006, y: 27.562021}
   m_EdgeRadius: 0
 --- !u!114 &1222053924
 MonoBehaviour:
@@ -2676,7 +2677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localPosition: {x: 0, y: 0}
-  Enemy: {fileID: 1089680724}
   speed: 50
   flyForce: 100
   feet: {fileID: 1973559091}
