@@ -674,9 +674,9 @@ TextureImporter:
       name: 1_KNIGHT_2_27
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 160
-        width: 80
+        width: 77
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -718,7 +718,7 @@ TextureImporter:
         serializedVersion: 2
         x: 293
         y: 160
-        width: 71
+        width: 72
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -760,7 +760,7 @@ TextureImporter:
         serializedVersion: 2
         x: 437
         y: 160
-        width: 68
+        width: 77
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -779,9 +779,9 @@ TextureImporter:
       name: 1_KNIGHT_2_32
       rect:
         serializedVersion: 2
-        x: 505
+        x: 514
         y: 160
-        width: 75
+        width: 77
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -800,9 +800,9 @@ TextureImporter:
       name: 1_KNIGHT_2_33
       rect:
         serializedVersion: 2
-        x: 580
-        y: 161
-        width: 92
+        x: 594
+        y: 160
+        width: 77
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
