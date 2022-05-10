@@ -40,7 +40,7 @@ public class AiPatrol : MonoBehaviour
     }
     void Flip()
     {
-        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        transform.localScale = new Vector2(transform.localScale.x * -5, transform.localScale.y);
         walkSpeed *= -1;
     }
 }
