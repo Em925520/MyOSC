@@ -14,13 +14,14 @@ namespace extOSC.Examples
 		Rigidbody2D _rigidbody;
 		public int speed = 20;
 		Animator _animator;
-		float up_Speed = 10f;
-
 		public int flyForce = 300;
 		public Transform feet; //assigned with empty game object and tag on the player's feet
 		public LayerMask groundLayer;
 		public bool isGrounded = false;//bool checks if a statement is true or false
 									// public GameObject FallingPlatform;
+
+		//control blow animation;
+		bool dragonblowing_fire = false;
 
 		public string Address = "/Dragon_movement";
 		// public string num;
@@ -37,9 +38,6 @@ namespace extOSC.Examples
 		// Rigidbody2D _rigidbody;
 		// Animator _animator;
 		// float up_Speed = 10f;
-
-		//control blow animation;
-		bool dragonblowing_fire = false;
 
 		#endregion
 
@@ -133,6 +131,7 @@ namespace extOSC.Examples
 
 			if (xSpeed < 0 || xSpeed > 0)
 			{
+				
 				//making sure the dragon is flying in both directions checking within speed
 				_animator.SetFloat("Speed", Mathf.Abs(xSpeed*speed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 			}
