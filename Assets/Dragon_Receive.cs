@@ -6,15 +6,21 @@ namespace extOSC.Examples
 	{
 
 		#region Public Vars
-		Rigidbody2D _rigidbody;
-		public int speed = 20;
-		Animator _animator;
-		float up_Speed = 10f;
 
 		//dragon player movement
 		Vector2 left;
 		Vector2 right;
 
+		Rigidbody2D _rigidbody;
+		public int speed = 20;
+		Animator _animator;
+		float up_Speed = 10f;
+
+		public int flyForce = 300;
+		public Transform feet; //assigned with empty game object and tag on the player's feet
+		public LayerMask groundLayer;
+		public bool isGrounded = false;//bool checks if a statement is true or false
+									// public GameObject FallingPlatform;
 
 		public string Address = "/Dragon_movement";
 		// public string num;
@@ -31,6 +37,10 @@ namespace extOSC.Examples
 		// Rigidbody2D _rigidbody;
 		// Animator _animator;
 		// float up_Speed = 10f;
+
+		//control blow animation;
+		bool dragonblowing_fire = false;
+
 		#endregion
 
 		#region Unity Methods
@@ -45,30 +55,6 @@ namespace extOSC.Examples
 			_animator = GetComponent<Animator>();
 		}
 
-			//player code
-		// public void update(){
-		// 	float xSpeed = Input.GetAxis("Horizontal") * speed;
-			
-		// 	_rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);
-		// 	if (xSpeed < 0 && transform.localScale.x > 0 )
-		// 	{
-		// 		transform.localScale = left;
-		// 		_rigidbody.velocity = transform.up * up_Speed;
-				
-
-		// 	}
-		// 	else if (xSpeed > 0 && transform.localScale.x < 0 )
-		// 	{
-		// 		transform.localScale = right;
-		// 		_rigidbody.velocity = transform.up * up_Speed;
-				
-
-		// 	}
-			
-
-
-		// 	 _animator.SetFloat("Speed", Mathf.Abs(xSpeed));
-		// }
 
 			
 
@@ -82,35 +68,26 @@ namespace extOSC.Examples
 		private void ReceivedMessage(OSCMessage message)		
 		{
 			float xSpeed = 0;//every frame
-            // var data = message.Values[0].StringValue;
-            // Debug.Log("val[0]"+data.Split(new char[]{';'})[0]);
-            // Debug.Log("val[1]"+data.Split(new char[]{';'})[1]);
-            // Debug.Log("val[2]"+data.Split(new char[]{';'})[2]);
-            //num=data.Split(new char[]{','})[0];
-            //var num = data.Split(",")[0];
-            // var blow = data[0];
-            // Debug.Log("blow： " + blow);
-            // var left = data[2];
-            // Debug.Log("left: " + left);
-            // var right = data[4];
-            // Debug.Log("right: " + right);
-
-
-
-
-
+      
             //BLOW SENSOR
             string blowValRaw = message.Values[0].StringValue;
             //Debug.Log("blowValRaw: " + blowValRaw);
             float blowValFloat = float.Parse(blowValRaw);
-            //transform.position = new Vector2(transform.position.x, transform.position.y + scaleInt0);//喷火
-			//transform.position替换成喷火效果，blowValFloat==1的时候，喷火；blowValFloat==0或者不等于1的时候不喷火；
+			if(blowValFloat == 1)
+            {
+				dragonblowing_fire = true;
+				_animator.SetBool("isblowingLR_fire", true);
+			} else if(blowValFloat == 0){
+				dragonblowing_fire = false;
+				_animator.SetBool("isblowingLR_fire", false);
+			}
+
             //***RIGHT;
             string rightValRaw = message.Values[1].StringValue;	//read the stirng array		
 			float rightValFloat = float.Parse(rightValRaw);      //convert into float
 			if(rightValFloat > 0)
             {
-				xSpeed = 1;
+				xSpeed = 2;
 				Debug.Log("move right");
 			}
 
@@ -121,11 +98,21 @@ namespace extOSC.Examples
 			float leftValeFloat = float.Parse(leftValRaw);
 			if (leftValeFloat > 0)
 			{
-				xSpeed = -1;
+				xSpeed = -2;
 				Debug.Log("move left");
 			}
 
+			_animator.SetFloat("Speed", Mathf.Abs(xSpeed));//you want an abosolute value of the x  speed or else now it is only walking on the right not the lef
 
+			isGrounded = Physics2D.OverlapCircle(feet.position, 0.3f, groundLayer);
+			_animator.SetBool("Grounded", isGrounded);
+
+			if ( isGrounded)//force jump while grounded on the ground floor
+			{//remember to tag ground in ground layer that are created then drag ground to "ground" in player inspecter
+				_rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0); //set velocity to 0 before addforce there the player won't jump extra or launch themselves after pressing on jump mutiple time
+				_rigidbody.AddForce(new Vector2(xSpeed, flyForce));
+
+			}
 
 
 			Debug.Log("speed: " + xSpeed);
@@ -136,12 +123,12 @@ namespace extOSC.Examples
 			if (xSpeed < 0 && transform.localScale.x > 0)
 			{
 				transform.localScale = left;
-				_rigidbody.velocity = transform.up * up_Speed;
+				// _rigidbody.velocity = transform.up * up_Speed;
 			}
 			else if (xSpeed > 0 && transform.localScale.x < 0)
 			{
 				transform.localScale = right;
-				_rigidbody.velocity = transform.up * up_Speed;
+				// _rigidbody.velocity = transform.up * up_Speed;
 			}
 
 			if (xSpeed < 0 || xSpeed > 0)
