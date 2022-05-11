@@ -33,11 +33,11 @@ namespace extOSC.Examples
 													 //check if the position of the dragon is changed then send the float data of the position to console 
 													 //sending this data to osc
 			gameStatusOSCmessage = new OSCMessage(Address);
-			// if(ScoringSystem.theScore ==0){//win
-			// 	gameStatusOSCmessage.AddValue(OSCValue.Float(1));
-			// 	Debug.Log("score: "+ScoringSystem.theScore);
-			// 	Transmitter.Send(gameStatusOSCmessage);
-			// }
+			if(ScoringSystem.theScore ==0){//win
+				gameStatusOSCmessage.AddValue(OSCValue.Float(2));
+				Debug.Log("score: "+ScoringSystem.theScore);
+				Transmitter.Send(gameStatusOSCmessage);
+			 }
 		}
 
 		//换成trigger;

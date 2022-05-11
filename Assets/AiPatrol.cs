@@ -18,8 +18,13 @@ public class AiPatrol : MonoBehaviour
 
     public GameObject Enemy;
     public Dragon_localControl dragonblowing_fire; //directly referencing the dragon local control script
+    public GameObject OSCDragon;
     ///bool dragonblowing_fire = false;
     // Start is called before the first frame update
+    private void Awake()//call before start
+    {
+        dragonblowing_fire = OSCDragon.GetComponent<Dragon_localControl>();
+    }
     void Start()
     {
         mustPatrol = true;
@@ -101,14 +106,17 @@ public class AiPatrol : MonoBehaviour
   
     void OnCollisionEnter2D(Collision2D other)
         {// if the player touches the object then disable itself (it will disappear
-            if (other.gameObject.CompareTag("Player") && dragonblowing_fire == true)
+        
+        
+         if (other.gameObject.CompareTag("Player") && dragonblowing_fire == true)
             {
-                //Food.SetActive(false); //disable the object
-                Destroy(Enemy); //this will also work, same to the code line above
+               
+                Destroy(Enemy); 
                 Debug.Log("destoryed enemy ");
                 // _audiosource.Play();
-                ScoringSystem.theScore += 1; // plus one whenver you ate a food
+                ScoringSystem.theScore += 1; 
             }
+           
         }
    
 

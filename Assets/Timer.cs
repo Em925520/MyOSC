@@ -16,7 +16,7 @@ namespace extOSC.Examples
         public TextMeshProUGUI timerText;
         bool timerStarted = false;
 
-        public string Address = "/time";
+        public string Address = "/gameStatus";
 		[Header("OSC Settings")]
 		public OSCTransmitter Transmitter;
 
