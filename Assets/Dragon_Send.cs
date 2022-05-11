@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace extOSC.Examples
 {
+	
 	public class Dragon_Send : MonoBehaviour
 	{
 		#region Public Vars
@@ -38,11 +39,6 @@ namespace extOSC.Examples
 													 //check if the position of the dragon is changed then send the float data of the position to console 
 													 //sending this data to osc
 			float Dragon_position = transform.localPosition.x;
-			
-			// OSCmessage.AddValue(OSCValue.Float(Dragon_position));//update dragon position in  osc message
-			// OSCmessage.AddValue(OSCValue.String("Hello, Dragon is moving"));
-			// // Debug.Log("send OSC + " + OSCmessage);
-			// Transmitter.Send(OSCmessage);
 			
 		}
 
