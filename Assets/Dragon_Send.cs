@@ -9,22 +9,18 @@ namespace extOSC.Examples
 	{
 		#region Public Vars
 
-		public string Address = "/unitydragon";
+		public string Address = "/gameStatus";
 
 		[Header("OSC Settings")]
 		public OSCTransmitter Transmitter;
 
-		
-
-	
-		
-
 		#endregion
+
+
 
 		#region Unity Methods
 
-
-		 void Start()
+		void Start()
 		{
 
            
@@ -32,14 +28,16 @@ namespace extOSC.Examples
         
        void Update()
         {
-			
-
-
-			var OSCmessage = new OSCMessage(Address);//creates a new message
+			// Debug.Log("score: "+ScoringSystem.theScore);
+			var gameStatusOSCmessage = new OSCMessage(Address);//creates a new message
 													 //check if the position of the dragon is changed then send the float data of the position to console 
 													 //sending this data to osc
-			float Dragon_position = transform.localPosition.x;
-			
+			gameStatusOSCmessage = new OSCMessage(Address);
+			// if(ScoringSystem.theScore ==0){//win
+			// 	gameStatusOSCmessage.AddValue(OSCValue.Float(1));
+			// 	Debug.Log("score: "+ScoringSystem.theScore);
+			// 	Transmitter.Send(gameStatusOSCmessage);
+			// }
 		}
 
 		//换成trigger;
